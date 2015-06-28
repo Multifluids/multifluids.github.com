@@ -32,22 +32,43 @@
       <section>
         <div id="title">
           <h1>Multifluid/Multiphase Fluidity</h1>
-          <p>A reimplementation of the <a href=http://www.fluidity-project.org><em>Fluidity</em></a> Navier-Stokes solver for multiphase/multifluid problems.</p>
+          <p>An application of the <a href=http://www.fluidity-project.org><em>Fluidity</em></a> Navier-Stokes solver optimized for multiphase/multifluid problems with large numbers of fluid components or fluid phases.</p>
 <p> Provides the dynamic core to the IC-FERST oil reservoir simulator and Darcy flow solver </p>
-<p> Simulation tool of choice for the MEMPHIS EPSRC Programme Grant </p>
+<p> Simulation tool of choice for the <a href=http://www.memphis-multiphase.org> MEMPHIS multiphase</a> EPSRC Programme Grant </p>
         </div>
 	<hr>
-	<h2> Capabilities </h2>
+	<h2> Capabilities: - </h2>
+	<h3> many phase flow </h3>
+	The code utilizes a volume of fluid aproach and is thus not limited to two phase flow interactions. 
+	<h3> mesh adaptivity </h3> 
+	<p> The code leverages the existing three dimensional mesh adaptivity/mesh optimization capabilities in <a href=http://www.fluidity-project.org><em>Fluidity</em></a>  to solve computationally intractable problems efficiently.
+	<img src="images/ICFERST/parallel_adaptive.gif" alt="flow past a transverse cylinder">
 	<h2>Applications: - MEMPHIS</h2>
 	<h3> Large/Industrial Scale </h3>
 	<p> Flow past a transverse cylinder </p>
 	<img src="images/memphis/tmfDAirfoil.0300.png" alt="flow past a transverse cylinder">
-	<h3>Microfluidics</h3>
+	<H3>Microfluidics</h3>
 	<p> Focused mixing </p>
 	<img src="images/memphis/MicroFluidicsOne.gif" alt="focused mixing">
         <h2>Applications: - IC FERST</h2>
 
+	<h2>Publications:</h2>
+	<h3> MEMPHIS </h3>
+	
+	<p> <a href=http://www.sciencedirect.com/science/article/pii/S0301932214001360 >Two-and three-phase horizontal slug flow simulations using an interface-capturing compositional approach</a> - D. Pavlidis, Z. Xie, J. R. Percival, J. L. M. A. Gomes, C. C. Pain and O. K. Matar; International Journal of Multiphase Flow (2014) </p>
 
+	<p> <a href=http://www.sciencedirect.com/science/article/pii/S0301932214001438>Adaptive unstructured mesh modelling of multiphase flows</a> - Z. Xie, D. Pavlidis, J. R. Percival, J. L. M. A. Gomes, C. C. Pain and O. K. Matar; International Journal of Multiphase Flow (2014) </p>
+
+	<p> <a href=http://www.sciencedirect.com/science/article/pii/S0301932214001815> Control volume finite element modelling of segregation of sand and granular flows in fluidized beds </a> - J. R. Percival, D. Pavlidis, Z. Xie, J. L. M. Gomes, M. Sakai, Y. Shigeto, H. Takahashi, O. K. Matar and C. C. Pain; International Journal of Multiphase Flow (2014)</p>
+
+	<h3> IC FERST </h3>
+	<p> <a href= >Reservoir Modeling for Flow Simulation by Use of Surfaces, Adaptive Unstructured Meshes, and an Overlapping-Control-Volume Finite-Element Method</a> - M. D. Jackson, J. R. Percival, P. Mostaghimi, B. Tollit, D. Pavlidis, C. C. Pain, J. Gomes, A. H. Elsheikh, P. Salinas, A. Muggeridge and M. Blunt;  SPE (2015)</p>
+
+	<p> <a href=http://onlinelibrary.wiley.com/doi/10.1111/gfl.12129/full>Multiphase flow simulation through porous media with explicitly resolved fractures</a> K. Su, J.-P. Latham, D. Pavlidis, J. Xiang, F. Fang, P. Mostaghimi, J. R. Percival, C. C. Pain and M. D. Jackson; Geofluids(2015)</p>
+
+	<p> <a href=http://link.springer.com/article/10.1007/s11004-014-9579-1>Anisotropic Mesh Adaptivity and Control Volume Finite Element Methods for Numerical Simulation of Multiphase Flow in Porous Media</a>
+P. Mostaghimi, J. R. Percival, D. Pavlidis, R. J. Ferrier, J. L. M. A. Gomes, F. J. Gorman, M. D. Jackson, S. J. Neethling and  C. C. Pain; Mathematical Geosciences(2015)</p>
+	
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
     
