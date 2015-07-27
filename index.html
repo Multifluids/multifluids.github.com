@@ -1,6 +1,7 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="chrome=1">
     <title>Multifluid/Multiphase Fluidity</title>
@@ -14,71 +15,271 @@
     <!--[if lt IE 8]>
     <link rel="stylesheet" href="stylesheets/ie.css">
     <![endif]-->
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
+    <meta name="viewport" content="width=device-width, initial-scale=1,
+      user-scalable=no">
   </head>
   <body>
-      <div id="header">
-        <nav>
-          <li class="fork"><a href="https://github.com/FluidityProject/multifluids">View On GitHub</a></li>
-          <li class="downloads"><a href="https://github.com/FluidityProject/multifluids/zipball/master">ZIP</a></li>
-          <li class="downloads"><a href="https://github.com/FluidityProject/multifluids/tarball/master">TAR</a></li>
-          <li class="title">DOWNLOADS</li>
-        </nav>
-      </div><!-- end header -->
-
-    <div class="wrapper">
-
+    <div id="header">
+      <nav>
+        <li class="fork"><a
+            href="https://github.com/FluidityProject/multifluids">View
+            On GitHub</a></li>
+        <li class="downloads"><a
+            href="https://github.com/FluidityProject/multifluids/zipball/master">ZIP</a></li>
+        <li class="downloads"><a
+            href="https://github.com/FluidityProject/multifluids/tarball/master">TAR</a></li>
+        <li class="title">DOWNLOADS</li>
+      </nav>
+      <!-- end header --> </div>
+    <div id="menu">
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html#publications">Publications</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- end header --> </div>
+    <div class="wrapper" id="main">
       <section>
         <div id="title">
           <h1>Multifluid/Multiphase Fluidity</h1>
-          <p>An application of the <a href=http://www.fluidity-project.org><em>Fluidity</em></a> Navier-Stokes solver optimized for multiphase/multifluid problems with large numbers of fluid components or fluid phases.</p>
-<p> Provides the dynamic core to the IC-FERST oil reservoir simulator and Darcy flow solver </p>
-<p> Simulation tool of choice for the <a href=http://www.memphis-multiphase.org> MEMPHIS multiphase</a> EPSRC Programme Grant </p>
+          <p>An application of the <a
+              href="http://www.fluidity-project.org"><em>Fluidity</em></a>
+            Navier-Stokes solver which has been optimized for
+            multiphase/multifluid problems containing&nbsp; large
+            numbers of fluid components or fluid phases.</p>
+          <p> Provides the dynamic core to the IC-FERST oil reservoir
+            simulator and Darcy porous media flow solver </p>
+          <p> Simulation tool of choice for the <a
+              href="http://www.memphis-multiphase.org"> MEMPHIS
+              multiphase</a> EPSRC Programme Grant </p>
         </div>
-	<hr>
-	<h2> Code capabilities: - </h2>
-	<h3> Many phase flow </h3>
-	The code utilizes a volume of fluid aproach and is thus not limited to two phase flow interactions. 
-	<h3> Interfacial tension </h3>
-	<h3> Mesh adaptivity </h3> 
-	<p> The code leverages the existing three dimensional mesh adaptivity/mesh optimization capabilities in <a href=http://www.fluidity-project.org><em>Fluidity</em></a>  to solve computationally intractable problems efficiently.
-	<img src="images/ICFERST/parallel_adaptive.gif" alt="A flooding problem through a fractured porous medium">
-	<img src="images/memphis/CWC_8_processes.gif" alt="A column of water collapsing in air under its own weight.">
-	<h2>Applications: - MEMPHIS</h2>
-	<h3> Large/Industrial Scale </h3>
-	<p> Flow past a transverse cylinder </p>
-	<img src="images/memphis/tmfDAirfoil.0300.png" alt="flow past a transverse cylinder">
-	<H3>Microfluidics</h3>
-	<p> Focused mixing </p>
-	<img src="images/memphis/MicroFluidicsOne.gif" alt="focused mixing">
+        <hr>
+        <h2> Code capabilities: - </h2>
+        <h3> Many phase flow </h3>
+        The code utilizes a volume of fluid aproach and is thus not
+        limited to two phase flow interactions.
+        <h3> Interfacial tension </h3>
+        <h3> Mesh adaptivity </h3>
+        <p> The code leverages the existing three dimensional mesh
+          adaptivity/mesh optimization capabilities in <a
+            href="http://www.fluidity-project.org"><em>Fluidity</em></a>
+          to solve computationally intractable problems efficiently. <img
+            src="images/ICFERST/parallel_adaptive.gif" alt="A flooding
+            problem through a fractured porous medium"> <img
+            src="images/memphis/CWC_8_processes.gif" alt="A column of
+            water collapsing in air under its own weight."> </p>
+        <h2>Applications: - MEMPHIS</h2>
+        <h3> Large/Industrial Scale </h3>
+        <p> Flow past a transverse cylinder </p>
+        <img src="images/memphis/tmfDAirfoil.0300.png" alt="flow past a
+          transverse cylinder">
+        <h3>Microfluidics</h3>
+        <p> Focused mixing </p>
+        <img src="images/memphis/MicroFluidicsOne.gif" alt="focused
+          mixing">
         <h2>Applications: - IC FERST</h2>
-	<h3> Water flooding problems </h3>
-	<h3> Viscous fingering </h3>
-	<h3> Fracturing </h3>
-	<h2>Applications: - Solid fluid coupling</h2>
+        <h3> Water flooding problems </h3>
+        <h3> Viscous fingering </h3>
+        <h3> Fracturing </h3>
+        <h2>Applications: - Solid fluid coupling</h2>
+        <h2 id="publications">Recent Publications:</h2>
+        <a href="http://www.memphis-multiphase.org"><img
+            id="img.centered" src="images/memphis/Memphis-logo.png"
+            alt="Memphis Multiphase" style="margin:auto; display:block;"
+            height="72" border="0" width="219"></a>
+        <p> <a
+            href="http://onlinelibrary.wiley.com/doi/10.1002/fld.4078/abstract">Compressive
 
-	<h2>Recent Publications:</h2>
-<img id=img.centered src="images/memphis/Memphis-logo.png" alt="Memphis Multiphase" style="margin:auto; display:block;">
-        <p> <a href=http://onlinelibrary.wiley.com/doi/10.1002/fld.4078/abstract >Compressive advection and multi-component methods for interface-capturing</a> - D. Pavlidis, J.L.M.A. Gomes, Z. Xie, J.R. Percival, C.C. Pain and O.K. Matar; International Journal for Numerical Methods in Fluids (2015) </p>
-	
-	<p> <a href=http://www.sciencedirect.com/science/article/pii/S0301932214001360 >Two-and three-phase horizontal slug flow simulations using an interface-capturing compositional approach</a> - D. Pavlidis, Z. Xie, J.R. Percival, J.L.M.A. Gomes, C.C. Pain and O.K. Matar; International Journal of Multiphase Flow (2014) </p>
 
-	<p> <a href=http://www.sciencedirect.com/science/article/pii/S0301932214001438>Adaptive unstructured mesh modelling of multiphase flows</a> - Z. Xie, D. Pavlidis, J.R. Percival, J.L.M.A. Gomes, C.C. Pain and O.K. Matar; International Journal of Multiphase Flow (2014) </p>
 
-	<p> <a href=http://www.sciencedirect.com/science/article/pii/S0301932214001815> Control volume finite element modelling of segregation of sand and granular flows in fluidized beds </a> - J.R. Percival, D. Pavlidis, Z. Xie, J.L.M. Gomes, M. Sakai, Y. Shigeto, H. Takahashi, O.K. Matar and C.C. Pain; International Journal of Multiphase Flow (2014)</p>
 
-	<img id=img.centered src="images/ICFERST/IC-FERST-logo.png" alt="IC-FERST" style="margin:auto; display:block; background-color:white;">
 
-	<p> <a href=https://www.onepetro.org/journal-paper/SPE-163633-PA >Reservoir Modeling for Flow Simulation by Use of Surfaces, Adaptive Unstructured Meshes, and an Overlapping-Control-Volume Finite-Element Method</a> - M.D. Jackson, J.R. Percival, P. Mostaghimi, B. Tollit, D. Pavlidis, C.C. Pain, J. Gomes, A.H. Elsheikh, P. Salinas, A. Muggeridge and M. Blunt;  SPE Reservoir Evaluation &amp; Engineering (2015)</p>
 
-	<p> <a href=http://onlinelibrary.wiley.com/doi/10.1111/gfl.12129/full>Multiphase flow simulation through porous media with explicitly resolved fractures</a> K. Su, J.-P. Latham, D. Pavlidis, J. Xiang, F. Fang, P. Mostaghimi, J.R. Percival, C.C. Pain and M.D. Jackson; Geofluids (2015)</p>
 
-	<p> <a href=http://link.springer.com/article/10.1007/s11004-014-9579-1>Anisotropic Mesh Adaptivity and Control Volume Finite Element Methods for Numerical Simulation of Multiphase Flow in Porous Media</a>
-P. Mostaghimi, J.R. Percival, D. Pavlidis, R.J. Ferrier, J.L.M.A. Gomes, G. Gorman, M.D. Jackson, S.J. Neethling and  C.C. Pain; Mathematical Geosciences (2015)</p>
-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            advection and multi-component methods for
+            interface-capturing</a> - D. Pavlidis, J.L.M.A. Gomes, Z.
+          Xie, J.R. Percival, C.C. Pain and O.K. Matar; International
+          Journal for Numerical Methods in Fluids (2015) </p>
+        <p> <a
+href="http://www.sciencedirect.com/science/article/pii/S0301932214001360">Two-and
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            three-phase horizontal slug flow simulations using an
+            interface-capturing compositional approach</a> - D.
+          Pavlidis, Z. Xie, J.R. Percival, J.L.M.A. Gomes, C.C. Pain and
+          O.K. Matar; International Journal of Multiphase Flow (2014) </p>
+        <p> <a
+href="http://www.sciencedirect.com/science/article/pii/S0301932214001438">Adaptive
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            unstructured mesh modelling of multiphase flows</a> - Z.
+          Xie, D. Pavlidis, J.R. Percival, J.L.M.A. Gomes, C.C. Pain and
+          O.K. Matar; International Journal of Multiphase Flow (2014) </p>
+        <p> <a
+href="http://www.sciencedirect.com/science/article/pii/S0301932214001815">
+            Control volume finite element modelling of segregation of
+            sand and granular flows in fluidized beds </a> - J.R.
+          Percival, D. Pavlidis, Z. Xie, J.L.M. Gomes, M. Sakai, Y.
+          Shigeto, H. Takahashi, O.K. Matar and C.C. Pain; International
+          Journal of Multiphase Flow (2014)</p>
+        <a
+href="http://www.imperial.ac.uk/engineering/departments/earth-science/research/research-groups/norms/"><img
+            id="img.centered" src="images/ICFERST/IC-FERST-logo.png"
+            alt="IC-FERST" style="margin:auto; display:block;
+            background-color:white;" height="200" border="0" width="200"></a>
+        <p> <a
+            href="https://www.onepetro.org/journal-paper/SPE-163633-PA">Reservoir
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            Modeling for Flow Simulation by Use of Surfaces, Adaptive
+            Unstructured Meshes, and an Overlapping-Control-Volume
+            Finite-Element Method</a> - M.D. Jackson, J.R. Percival, P.
+          Mostaghimi, B. Tollit, D. Pavlidis, C.C. Pain, J. Gomes, A.H.
+          Elsheikh, P. Salinas, A. Muggeridge and M. Blunt; SPE
+          Reservoir Evaluation &amp; Engineering (2015)</p>
+        <p> <a
+            href="http://onlinelibrary.wiley.com/doi/10.1111/gfl.12129/full">Multiphase
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            flow simulation through porous media with explicitly
+            resolved fractures</a> K. Su, J.-P. Latham, D. Pavlidis, J.
+          Xiang, F. Fang, P. Mostaghimi, J.R. Percival, C.C. Pain and
+          M.D. Jackson; Geofluids (2015)</p>
+        <p> <a
+            href="http://link.springer.com/article/10.1007/s11004-014-9579-1">Anisotropic
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            Mesh Adaptivity and Control Volume Finite Element Methods
+            for Numerical Simulation of Multiphase Flow in Porous Media</a>
+          P. Mostaghimi, J.R. Percival, D. Pavlidis, R.J. Ferrier,
+          J.L.M.A. Gomes, G. Gorman, M.D. Jackson, S.J. Neethling and
+          C.C. Pain; Mathematical Geosciences (2015)</p>
+      </section>
     </div>
     <!--[if !IE]><script>fixScale(document);</script><![endif]-->
-    
   </body>
 </html>

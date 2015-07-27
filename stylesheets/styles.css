@@ -608,7 +608,7 @@ strong {
   max-width: 650px;
   margin: 0 auto;
   position: relative;
-  padding: 0 20px;
+  padding: 0px 40px;
 }
 
 section img {
@@ -697,12 +697,12 @@ dt {
 #header {
   z-index: 100;
   left: 0;
-  top: 0px;
+  bottom: 0px;
   height: 60px;
   width: 100%;
   position: fixed;
   background: url(../images/nav-bg.gif) #353535;
-  border-bottom: 4px solid #434343;
+  border-top: 4px solid #434343;
   -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
   -o-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.25);
@@ -784,7 +784,7 @@ section {
   max-width: 650px;
   padding: 30px 0px 50px 0px;
   margin: 20px 0;
-  margin-top: 70px;
+  margin-top: 30px;
 }
 section #title {
   border: 0;
@@ -848,4 +848,52 @@ section #title .credits.right {
   nav {
     display: none;
   }
+}
+
+
+#menu {
+  z-index: 100;
+  left: 0;
+  top: 0px;
+  height: 30px;
+  width: 100%;
+  margin: 0 auto;
+  position: fixed;
+  background: url(../images/nav-bg.gif) #353535;
+  border-bottom: 4px solid #434343;
+}
+
+#menu nav{
+    display: block;
+    width: 100%;
+    overflow: hidden;
+  text-align: center;
+}
+
+#menu nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: inline-block;
+}
+
+#menu nav li {
+    float: left;
+}
+
+#menu nav li a:link, #menu nav li a:visited {
+    display: block;
+    width: 150px;
+    font-weight: bold;
+    color: #FFFFFF;
+    background-color: #98bf21;
+    text-align: center;
+    padding: 4px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+#menu nav li a:hover, #menu nav li a:active {
+    background-color: #7A991A;
 }
