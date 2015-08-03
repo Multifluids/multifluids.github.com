@@ -1,0 +1,11 @@
+---
+layout: default
+title: IC-FERST/Multifluid Fluidity Videos
+--- 
+
+{% for post in site.categories.videos %}
+   {% assign currentdate = post.date | date: "%d %B %Y" %}
+    <h3>{{ currentdate }} : {{ post.title }}</h3>
+    <iframe width="420" height="315" src="http://www.youtube.com/embed/{{ post.shortcode }}" frameborder="0" allowfullscreen></iframe><br>
+    {{ post.content }}
+{% endfor %}

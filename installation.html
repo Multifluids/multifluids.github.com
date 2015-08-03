@@ -1,0 +1,27 @@
+---
+layout: default
+title : IC-Ferst Installation Instructions
+---
+
+<div id="title">
+   <h1> Multifluid/Multiphase Fluidity </h1>
+   <p> IC-Ferst/ Multifluid fluidity is developed and run on Linux and Mac OS X systems. To install on such machines it is necessary to install certain supporting software.</p>
+</div>
+
+The basic list of supporting software, and method of installation, is the same as for the <a href="http://fluidityproject.github.io">single phase Fluidity code</a>.
+
+<h2> Installing on Ubuntu </h2>
+
+This is the best supported operating system. Intructions to install the necessary packages using the system package managers are given <a href=https://github.com/FluidityProject/fluidity/wiki/FAQ%3A-How-do-I-install-Fluidity-on-Ubuntu-LTS%3F>here</a>. Once the fluidity-dev package has been installed, your system should be able to compile the IC-Ferst/ Multifluid Fluidity package, which may be downloaded at the foot of this page. Once downloaded and extracted, navigate to the root directory and issue the shell command
+
+{% highlight bash %}
+make mp
+{% endhighlight %}
+
+<h2> Installing on other Linux systems </h2>
+
+Although less well supported, the code has been found to run successfully on Red Hat and OpenSUSE systemd. A list of hints and tips for these and other systems may be found <a href="https://github.com/FluidityProject/fluidity/wiki/FAQs">here</a>.
+
+<h2> Installing on Mac OS X</h2>
+
+At present this is still experimental and no formal instruction set is issued. Interested parties should see the <a href="{{ site.url }}/contact.html"> contact page</a>.
