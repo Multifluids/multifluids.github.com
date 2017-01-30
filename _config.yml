@@ -12,8 +12,8 @@ title_separator          : "-"
 name                     : &name "IC-FERST"
 description              : &description "Next-generation reservoir simulator"
 url                      : http://multifluids.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
-baseurl                  : "/multifluids" # the subpath of your site, e.g. "/blog"
-repository               : "Multifluids/multifluids"
+baseurl                  : "/" # the subpath of your site, e.g. "/blog"
+repository               : "https://github.com/Multifluids/"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
