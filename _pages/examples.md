@@ -37,6 +37,12 @@ Immiscible porous media flow displacement in a layered geological domain with fa
 </figure>
 Immiscible porous media flow displacement in a fractured porous medium using dynamic mesh optimisation.
 
+### Fractures growth
+<figure>
+  <img src="{{ '/assets/images/fracture-growth.gif' | absolute_url }}" alt="Creation of fractures in a porous medium.">
+</figure>
+Example of the fluid-rock mechanics interaction, creation of fractures in a porous medium by increasing the pressure.
+
 # Inertia dominated flow simulations
 
 ***
@@ -45,4 +51,4 @@ Immiscible porous media flow displacement in a fractured porous medium using dyn
 <figure>
   <img src="{{ '/assets/images/droplet-vertical-impact.gif' | absolute_url }}" alt="A column of water collapsing in air under its own weight.">
 </figure>
-Droplet impact.
+Three phase droplet impact (water) from a less viscous phase (air) to a more viscous phase (oil). 
