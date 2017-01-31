@@ -14,26 +14,26 @@ layouts_gallery:
 
 ### 3D fluvial channels
 <figure>
-  <img src="{{ '/assets/images/channels.apng' | absolute_url }}" alt="Immiscible porous media flow displacement in a fluvial porous medium.">
+  <img src="{{ '/assets/images/channels.gif' | absolute_url }}" alt="Immiscible porous media flow displacement in a fluvial porous medium.">
 </figure>
 In this numerical experiment a set of fluvial channels are considered. The domain is characterised by an aspect ratio of 1:50. The wetting phase is injected over the right boundary and the left boundary is the only open boundary. The dynamic mesh is adapted to the saturation field, introducing the majority of the resolution at the shock-front.
 
 
 ### 3D scours model
 <figure>
-  <img src="{{ '/assets/images/scours.apng' | absolute_url }}" alt="Immiscible porous media flow displacement displaying the number of elements as the mesh adapts to follow the shock-fronts.">
+  <img src="{{ '/assets/images/scours.gif' | absolute_url }}" alt="Immiscible porous media flow displacement displaying the number of elements as the mesh adapts to follow the shock-fronts.">
 </figure>
 Immiscible porous media flow displacement displaying the number of elements as the mesh adapts to follow the shock-fronts.
 
 ### Normal faults
 <figure>
-  <img src="{{ '/assets/images/normal-fault.apng' | absolute_url }}" alt="Immiscible porous media flow displacement in a layered geological domain with faults.">
+  <img src="{{ '/assets/images/normal-fault.gif' | absolute_url }}" alt="Immiscible porous media flow displacement in a layered geological domain with faults.">
 </figure>
 Immiscible porous media flow displacement in a layered geological domain with faults.
 
 ### 3D Fractures
 <figure>
-  <img src="{{ '/assets/images/fractures.apng' | absolute_url }}" alt="Immiscible porous media flow displacement in a fractured porous medium.">
+  <img src="{{ '/assets/images/fractures.gif' | absolute_url }}" alt="Immiscible porous media flow displacement in a fractured porous medium.">
 </figure>
 Immiscible porous media flow displacement in a fractured porous medium using dynamic mesh optimisation.
 
