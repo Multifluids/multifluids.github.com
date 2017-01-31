@@ -1,6 +1,6 @@
 ---
 permalink: /examples/
-title: "Examples"
+title: "Applications"
 excerpt: ""
 layouts_gallery:
   - url: /assets/images/logo.png

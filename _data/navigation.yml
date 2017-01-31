@@ -22,7 +22,7 @@ foo:
 main:
   - title: "Technology"
     url: /technology/
-  - title: "Examples"
+  - title: "Applications"
     url: /examples/
   - title: "People and publications"
     url: /people/
