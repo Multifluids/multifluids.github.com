@@ -60,7 +60,9 @@ element representations. See <a href="http://www.sciencedirect.com/science/artic
       </a> for a better explanation.
 
 ### Solid fluid coupling
-IC-FERST can couple with FEMDEM and model the interaction between rock mechanics and fluids. See <a href="http://www.sciencedirect.com/science/article/pii/S0021999116301802">
+IC-FERST can couple with <a href="http://solidityproject.com/">
+           Solidity
+      </a> and model the interaction between rock mechanics and fluids. See <a href="http://www.sciencedirect.com/science/article/pii/S0021999116301802">
            Yang et al. 2016
       </a> for a better explanation.
 

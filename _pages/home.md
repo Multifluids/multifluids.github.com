@@ -37,10 +37,9 @@ intro:
 {% include feature_row %}
 
 
-
-
-
 # Applications
 
-IC-FERST is an open source multiphase simulation tool that is able to solve the Darcy and the Navier-Stokes equations in 2 and 3 dimensions. It uses dynamic unstructured mesh optimisation and has been parallelized using MPI and also has been tested on the U.K. national super computer Archer. IC-FERST has been used for the following scientific areas: Porous media and inertia dominated flows, interfacial tension flows, viscous fingering, flooding and rock fracturing.
+IC-FERST is an open source multiphase simulation tool based on <a href="http://fluidityproject.github.io/">
+           Fluidity
+      </a> that is able to solve the Darcy and the Navier-Stokes equations in 2 and 3 dimensions. It uses dynamic unstructured mesh optimisation and has been parallelized using MPI and also has been tested on the U.K. national super computer Archer. IC-FERST has been used for the following scientific areas: Porous media and inertia dominated flows, interfacial tension flows, viscous fingering, flooding and rock fracturing.
 
