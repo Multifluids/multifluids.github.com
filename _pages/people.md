@@ -6,11 +6,13 @@ excerpt: ""
 
 ## People
 
- -- Heads of the project: <a href="http://www.imperial.ac.uk/people/c.pain">Professor Christopher Pain</a> and  <a href="http://www.imperial.ac.uk/people/m.d.jackson">Professor Matthew D. Jackson</a>
+ -- Heads of the project: <a href="http://www.imperial.ac.uk/people/c.pain">Professor Christopher C. Pain</a> and  <a href="http://www.imperial.ac.uk/people/m.d.jackson">Professor Matthew D. Jackson</a>
 
- -- Administrators of the NORMS group: <a href="http://www.imperial.ac.uk/people/pablo.salinas">Dr. Pablo Salinas</a> and <a href="http://www.imperial.ac.uk/people/c.jacquemyn">Dr. Carl Jacquemyn</a>
+ -- Lead developers of IC-FERST: <a href="http://www.imperial.ac.uk/people/pablo.salinas">Dr. Pablo Salinas</a> and <a href="https://www.imperial.ac.uk/people/dimitrios.pavlidis04">Dr. Dimitrios Pavlidis</a>
 
- -- Current and former people of the team: <a href="https://www.imperial.ac.uk/people/dimitrios.pavlidis04">Dr. D. Pavlidis</a>, Dr. Z. Xie, Dr. J.R. Percival, Dr. F. Fang, Dr. Q. Lei, Dr. A. Adam, Dr. Y. Melnikova, Dr. J.L.M.A. Gomes,  H. Osman, Y. Debbabi, Dr. J.P. Latham, A. Obeysekara, P. Yang and <a href="http://www.imperial.ac.uk/people/j.xiang">Dr. J. Xiang</a>.
+ -- Lead geologist and surface-based developer: <a href="http://www.imperial.ac.uk/people/c.jacquemyn">Dr. Carl Jacquemyn</a>
+
+ -- Current and former people of the team: Dr. Z. Xie, Dr. J.R. Percival, Dr. F. Fang, Dr. Q. Lei, M. Rood, Dr. A. Adam, Dr. Y. Melnikova, Dr. J.L.M.A. Gomes,  H. Osman, Y. Debbabi, Dr. J.P. Latham, A. Obeysekara, P. Yang and <a href="http://www.imperial.ac.uk/people/j.xiang">Dr. J. Xiang</a>.
 
 
 
