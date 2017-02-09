@@ -19,11 +19,11 @@ layouts_gallery:
 In this numerical experiment a set of fluvial channels are considered. The domain is characterised by an aspect ratio of 1:50. The wetting phase is injected over the right boundary and the left boundary is the only open boundary. The dynamic mesh is adapted to the saturation field, introducing the majority of the resolution at the shock-front.
 
 
-### 3D scours model
+### 3D fingering
 <figure>
-  <img src="{{ '/assets/images/scours.gif' | absolute_url }}" alt="Immiscible porous media flow displacement displaying the number of elements as the mesh adapts to follow the shock-fronts.">
+  <img src="{{ '/assets/images/fingering3D.gif' | absolute_url }}" alt="Immiscible porous media flow displacement generating fingering modelled with mesh adaptivity.">
 </figure>
-Immiscible porous media flow displacement displaying the number of elements as the mesh adapts to follow the shock-fronts.
+Immiscible porous media flow displacement of two fluids with a very high viscosity ratio, generating fingering.
 
 ### Normal faults
 <figure>
