@@ -52,9 +52,9 @@ sudo apt-get install fluidity fluidity-dev
 export PETSC_DIR=/usr/lib/petscdir/3.6.3
 {% endhighlight %}
 
-If you have access to the internal monthly release it can be downloaded from github with the following one-line command
+It can be downloaded from github with the following one-line command
 {% highlight bash %}
-mkdir MultiFluidsMonthly && cd MultiFluidsMonthly && git init && git remote add -t  master  -f origin git@github.com:Multifluids/multifluids_monthly && git checkout master
+mkdir ICFERST && cd ICFERST && git init && git remote add -t  master  -f origin git@github.com:Multifluids/icferst.git && git checkout master
 {% endhighlight %}
 
 -- Next Navigate to the root directory of your IC-FERST folder
