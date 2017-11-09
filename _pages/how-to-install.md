@@ -64,6 +64,13 @@ cd IC-FERST-FOLDER/
 make mp
 {% endhighlight %}
 
+<h2> Using the diamond GUI to configure test cases </h2>
+The input files are "EXAMPLE.mpml". This files can be either manipulated using diamond a GUI, or a text file. To open the diamond GUI for ICFERST this is an example, found in the examples folder in IC-FERST-FOLDER/legacy_reservoir_prototype/tests/3D_BL
+{% highlight bash %}
+diamond -s IC-FERST-FOLDER/legacy_reservoir_prototype/schemas/multiphase.rng 3D_test.mpml
+{% endhighlight %}
+
+
 <h2> Installing on other Linux systems </h2>
 
 Although less well supported, the code has been found to run successfully on Red Hat and OpenSUSE systemd. A list of hints and tips for these and other systems may be found <a href="https://github.com/FluidityProject/fluidity/wiki/FAQs">here</a>.
