@@ -48,9 +48,9 @@ sudo apt-get install fluidity fluidity-dev
 export PETSC_DIR=/usr/lib/petscdir/3.6.3
 {% endhighlight %}
 
-If you have access to the internal monthly release it can be downloaded from github with the following one-line command
+It can be downloaded from github with the following one-line command
 {% highlight bash %}
-mkdir MultiFluidsMonthly && cd MultiFluidsMonthly && git init && git remote add -t  master  -f origin git@github.com:Multifluids/multifluids_monthly && git checkout master
+mkdir ICFERST && cd ICFERST && git init && git remote add -t  master  -f origin git@github.com:Multifluids/icferst.git && git checkout master
 {% endhighlight %}
 
 -- Next Navigate to the root directory of your IC-FERST folder
@@ -58,6 +58,12 @@ mkdir MultiFluidsMonthly && cd MultiFluidsMonthly && git init && git remote add 
 cd IC-FERST-FOLDER/
 ./configure --enable-2d-adaptivity
 make mp
+{% endhighlight %}
+
+<h2> Using the diamond GUI to configure test cases </h2>
+The input files are "EXAMPLE.mpml". This files can be either manipulated using diamond a GUI, or a text file. To open the diamond GUI for ICFERST this is an example, found in the examples folder in IC-FERST-FOLDER/legacy_reservoir_prototype/tests/3D_BL
+{% highlight bash %}
+diamond -s IC-FERST-FOLDER/legacy_reservoir_prototype/schemas/multiphase.rng 3D_test.mpml
 {% endhighlight %}
 
 <h2> Installing on other Linux systems </h2>
