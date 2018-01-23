@@ -70,7 +70,17 @@ The input files are "EXAMPLE.mpml". This files can be either manipulated using d
 diamond -s IC-FERST-FOLDER/legacy_reservoir_prototype/schemas/multiphase.rng 3D_test.mpml
 {% endhighlight %}
 
+<h2> Video tutorial </h2>
 
+[![Alt text](https://img.youtube.com/vi/yyI_FN6JtzM/0.jpg)](https://www.youtube.com/watch?v=yyI_FN6JtzM)
+
+ https://youtu.be/yyI_FN6JtzM
+In this video the following aspects are covered:
+1) How to compile ICFERST. 
+2) How to convert from exodusII file format to GMSH.
+3) How to edit an input file using Diamond.
+4) How to run a test case.
+5) Visualising the results obtained using ICFERST.
 <h2> Installing on other Linux systems </h2>
 
 Although less well supported, the code has been found to run successfully on Red Hat and OpenSUSE systemd. A list of hints and tips for these and other systems may be found <a href="https://github.com/FluidityProject/fluidity/wiki/FAQs">here</a>.
