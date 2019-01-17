@@ -12,7 +12,7 @@ excerpt: ""
 
  -- Lead geologist and surface-based developer: <a href="http://www.imperial.ac.uk/people/c.jacquemyn">Dr. Carl Jacquemyn</a>
 
- -- Current and former people of the team: Dr. Dimitrios Pavlidis, Dr. Z. Xie, Dr. J.R. Percival, Dr. F. Fang, Dr. Q. Lei, M. Rood, Dr. A. Adam, Dr. Y. Melnikova, Dr. J.L.M.A. Gomes,  H. Osman, Y. Debbabi, Dr. J.P. Latham, A. Obeysekara, P. Yang and <a href="http://www.imperial.ac.uk/people/j.xiang">Dr. J. Xiang</a>.
+ -- Current and former people of the team: Dr. A. Hamzehloo, Dr. A. Kampitsis, L. Via-estreem, Dr. D. Pavlidis, Dr. Z. Xie, Dr. J.R. Percival, Dr. F. Fang, Dr. Q. Lei, M. Rood, Dr. A. Adam, Dr. Y. Melnikova, Dr. J.L.M.A. Gomes,  H. Osman, Y. Debbabi, Dr. J.P. Latham, A. Obeysekara, P. Yang and <a href="http://www.imperial.ac.uk/people/j.xiang">Dr. J. Xiang</a>.
 
 ## How to cite IC-FERST
 
