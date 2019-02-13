@@ -37,7 +37,7 @@ Immiscible porous media flow displacement in a layered geological domain with fa
 </figure>
 Immiscible porous media flow displacement in a fractured porous medium using dynamic mesh optimisation.
 
-### Fractures growth
+### Saline intrusion
 <figure>
   <img src="{{ '/assets/images/Saline_intrusion.gif' | absolute_url }}" alt="Salt-fresh water interface capture.">
 </figure>
