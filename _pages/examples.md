@@ -39,6 +39,12 @@ Immiscible porous media flow displacement in a fractured porous medium using dyn
 
 ### Fractures growth
 <figure>
+  <img src="{{ '/assets/images/Saline_intrusion.gif' | absolute_url }}" alt="Salt-fresh water interface capture.">
+</figure>
+Example capturing the sea/fresh water interface in an aquifer.
+
+### Fractures growth
+<figure>
   <img src="{{ '/assets/images/fracture-growth.gif' | absolute_url }}" alt="Creation of fractures in a porous medium.">
 </figure>
 Example of the fluid-rock mechanics interaction, creation of fractures in a porous medium by increasing the pressure.
