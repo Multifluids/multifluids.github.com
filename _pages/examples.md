@@ -57,7 +57,7 @@ Example of the fluid-rock mechanics interaction, creation of fractures in a poro
 <figure>
   <img src="{{ '/assets/images/cough2D_combined.gif' | absolute_url }}" alt="Droplet spreading due to coughing.">
 </figure>
-Droplet spread, with a precision of 100 microns, of a cough (0.026 seconds). As part of the project RAMP7: https://royalsociety.org/topics-policy/Health%20and%20wellbeing/ramp/. Left water saturation, right velocity.
+Droplet spread, with a precision of 100 microns, of a cough (0.026 seconds). As part of the project [RAMP7](https://royalsociety.org/topics-policy/Health%20and%20wellbeing/ramp/). Left water saturation, right velocity.
 
 
 ### Droplet impact
