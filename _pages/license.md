@@ -15,7 +15,7 @@ layouts_gallery:
 ## Contact details
 ---
 
-The multifluid Fluidity/IC-Ferst code base is developed and used at a number of academic institutions across the UK, including <a href="http://www.imperial.ac.uk/">Imperial College London</a>, <a href="the%20University%20of%20Aberdeen">the University of Aberdeen</a> and <a href="http://www.lsbu.ac.uk/">London South Bank University</a>. The code is released under the <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU Lesser Public License version 2.0</a>. Public releases are made at irregular intervals.<br>
+The multifluid Fluidity/IC-Ferst code base is developed and used at a number of academic institutions across the UK, including <a href="http://www.imperial.ac.uk/">Imperial College London</a>, <a href="the%20University%20of%20Aberdeen">the University of Aberdeen</a> and <a href="http://www.lsbu.ac.uk/">London South Bank University</a>. The code is released under the <a href="https://www.gnu.org/licenses/old-licenses/gpl-2.0.html">GNU Public License version 2.0</a>. Public releases are made at irregular intervals.<br>
 
 To request access to the development repository, or to request further information, please contact the heads of the project, <a href="http://www.imperial.ac.uk/people/c.pain">Professor Christopher Pain</a> or <a href="http://www.imperial.ac.uk/people/m.d.jackson">Professor Matthew D. Jackson</a>.<br>
 
