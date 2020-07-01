@@ -25,7 +25,7 @@ feature_row:
   - image_path: /assets/images/mm-OpenSourceLogo.png
     alt: "100% free"
     title: "Code license"
-    excerpt: "IC-FERST is free to use, it is licensed under the GPL."
+    excerpt: "IC-FERST is free to use, it is licensed under the AGPLv3."
     url: "/license/"
     btn_label: "Learn More"
 github:
