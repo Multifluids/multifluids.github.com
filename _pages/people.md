@@ -20,6 +20,21 @@ Cite <b>Gomes et al. 2016</b>, <b>Salinas et al. 2016</b> and <b>Salinas et al. 
 
 ## Key publications
 
+   <p><a href="https://doi.org/10.1007/s11004-020-09877-y">
+           Is Cell-to-Cell Scale Variability Necessary in Reservoir Models?
+      </a><br>
+      Osman, H., Graham, G.H., Moncorge, A., Jacquemyn, C., Jackson, M.D.;
+      <em>Math Geosci</em>
+      (2020) doi: 10.1007/s11004-020-09877-y
+   </p>
+
+   <p><a href="https://doi.org/10.1007/s11004-018-9764-8">
+           Surface-Based Geological Reservoir Modelling Using Grid-Free NURBS Curves and Surfaces
+      </a><br>
+      Jacquemyn, C., Jackson, M.D. and Hampson, G.J.;
+      <em>Math Geosci 51, 1–28</em>
+      (2019) doi: 10.1007/s11004-018-9764-8
+   </p>
 
    <p><a href="http://onlinelibrary.wiley.com/doi/10.1002/fld.4275/abstract">
            A Force-Balanced Control Volume Finite Element Method for Multiphase Porous Media Flow Modelling

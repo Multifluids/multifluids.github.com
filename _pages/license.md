@@ -44,8 +44,8 @@ The list of commands to get IC-FERST working is as follows:
 {% highlight bash %}
 sudo apt-add-repository ppa:fluidity-core/ppa
 sudo apt-get update
-sudo apt-get install fluidity fluidity-dev
-export PETSC_DIR=/usr/lib/petscdir/3.6.3
+sudo apt-get install fluidity-dev
+export PETSC_DIR=/usr/lib/petscdir/3.8.3
 {% endhighlight %}
 
 It can be downloaded from github with the following one-line command
