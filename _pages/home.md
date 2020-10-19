@@ -8,7 +8,7 @@ header:
   cta_url: "http://multifluids.github.io/people/"
   caption:
 excerpt: 'IC-FERST is a next generation reservoir simulator based on Control-Volume Finite Element methods and dynamic unstructured mesh optimisation.
-<br /> <small><a href="https://github.com/Multifluids/icferst">Public repository</a></small><br /><br /> {::nomarkdown}{:/nomarkdown}'
+
 feature_row:
   - image_path: /assets/images/mm-surface-based.png
     alt: "customizable"
