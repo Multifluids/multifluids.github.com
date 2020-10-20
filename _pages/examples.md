@@ -12,24 +12,26 @@ layouts_gallery:
 
 ***
 
-### 3D fluvial channels
+### Two phase flow displacement in a 
 <figure>
   <img src="{{ '/assets/images/clinoforms_flow.gif' | absolute_url }}" alt="Immiscible porous media flow displacement in a porous medium.">
 </figure>
-In this numerical experiment a reservoir composed of a series of clinoforms is considered. The domain is characterised by an aspect ratio of 1:100. The wetting phase is injected and it is represented as an isosurface. The dynamic mesh is adapted to the saturation field, introducing the majority of the resolution at the shock-front.
+In this numerical experiment a reservoir carbonate clinoforms on the island of Bonaire consisting of bioclastic (yellow) and rhodolitic (orange) limestone, partly dolomitised (red)
 
+Mid-Miocene progradational platform carbonates of the Seroe Domi Formation. At the type locale in Seru Grandi, these form a succession of shallow-water carbonate deposits that are exposed in a terrace erosional morphology, offlapping a topographically complex volcanic basement. The progradational clinoforms composed of up to 70% calcareous coralline red algae with minor coral fragments, large benthic foraminifera, echinoids, rare bivalves and subordinate volcanic lithic clasts. Individual clinoform beds exhibit lateral changes in facies, with the upslope section consisting predominantly of encrusting red algae and rhodolite facies, grading downslope over a distance of 30-40 m into a bioclastic facies. These two facies are notable for the lack of significant reef-building corals, which are absent from many outcrops, and where present, occur only rarely. All facies have been dolomitized to varying degrees, ranging from undolomitized to completely dolomitized.
+
+
+### Geothermal reservoir with deviated wells
+<figure>
+  <img src="{{ '/assets/images/geothermal_deviated_wells.gif' | absolute_url }}" alt="Geothermal reservoir with horizontal wells.">
+</figure>
+In this model a doublet of horizontal wells is considered in a geothermal reservoir. The well trajectory is captured by the mesh and not approximated. In this example the geothermal reservoir is modelled from the surface up to 5 km. The use of dynamic mesh optimisation enables us to easily span many lenght-scales without incurring in extra computational costs.
 
 ### 3D fingering
 <figure>
   <img src="{{ '/assets/images/fingering3D.gif' | absolute_url }}" alt="Immiscible porous media flow displacement generating fingering modelled with mesh adaptivity.">
 </figure>
 Immiscible porous media flow displacement of two fluids with a very high viscosity ratio, generating fingering.
-
-### Normal faults
-<figure>
-  <img src="{{ '/assets/images/normal-fault.gif' | absolute_url }}" alt="Immiscible porous media flow displacement in a layered geological domain with faults.">
-</figure>
-Immiscible porous media flow displacement in a layered geological domain with faults.
 
 ### 3D Fractures
 <figure>
@@ -60,10 +62,16 @@ Example of the fluid-rock mechanics interaction, creation of fractures in a poro
 Droplet spread, with a precision of 100 microns, of a cough (0.026 seconds). As part of the project [RAMP7](https://royalsociety.org/topics-policy/Health%20and%20wellbeing/ramp/). Left water saturation, right velocity.
 
 
+### Water splashing in an object
+<figure>
+  <img src="{{ '/assets/images/wave_splash.gif' | absolute_url }}" alt="A column of water collapsing in air under its own weight.">
+</figure>
+A column of water collapsing in air under its own weight impacting with an object.
+
+
+
 ### Droplet impact
 <figure>
   <img src="{{ '/assets/images/droplet-vertical-impact.gif' | absolute_url }}" alt="A column of water collapsing in air under its own weight.">
 </figure>
 Three phase droplet impact (water) from a less viscous phase (air) to a more viscous phase (oil). 
-
-

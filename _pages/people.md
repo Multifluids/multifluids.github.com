@@ -20,12 +20,24 @@ Cite <b>Gomes et al. 2016</b>, <b>Salinas et al. 2016</b> and <b>Salinas et al. 
 
 ## Key publications
 
-   <p><a href="https://doi.org/10.1007/s11004-020-09877-y">
-           Is Cell-to-Cell Scale Variability Necessary in Reservoir Models?
+   <p> <a href="https://www.onepetro.org/journal-paper/SPE-163633-PA">
+          Reservoir Modeling for Flow Simulation by Use of Surfaces, Adaptive
+          Unstructured Meshes, and an Overlapping-Control-Volume
+          Finite-Element Method
+       </a> <br>
+       M.D. Jackson, J.R. Percival, P. Mostaghimi, B. Tollit, D. Pavlidis,
+         C.C. Pain, J. Gomes, A.H. Elsheikh, P. Salinas,
+         A. Muggeridge and M. Blunt;
+       <em> SPE Reservoir Evaluation &amp; Engineering</em>
+       (2015) doi: 10.2118/163633-PA
+    </p>
+
+   <p><a href="http://onlinelibrary.wiley.com/doi/10.1002/fld.4381/pdf">
+           Improving the Robustness of the Control Volume Finite Element Method with Application to Multiphase Porous Media Flow
       </a><br>
-      Osman, H., Graham, G.H., Moncorge, A., Jacquemyn, C., Jackson, M.D.;
-      <em>Math Geosci</em>
-      (2020) doi: 10.1007/s11004-020-09877-y
+      P.Salinas, D. Pavlidis, Z. Xie, A. Adam, C. Pain and M.D. Jackson;
+      <em> Int J Numer Meth Fluids. </em>
+      (2017) doi: 10.1002/fld.4381
    </p>
 
    <p><a href="https://doi.org/10.1007/s11004-018-9764-8">
@@ -34,6 +46,14 @@ Cite <b>Gomes et al. 2016</b>, <b>Salinas et al. 2016</b> and <b>Salinas et al. 
       Jacquemyn, C., Jackson, M.D. and Hampson, G.J.;
       <em>Math Geosci 51, 1–28</em>
       (2019) doi: 10.1007/s11004-018-9764-8
+   </p>
+
+   <p><a href="https://doi.org/10.1007/s11004-020-09877-y">
+           Is Cell-to-Cell Scale Variability Necessary in Reservoir Models?
+      </a><br>
+      Osman, H., Graham, G.H., Moncorge, A., Jacquemyn, C., Jackson, M.D.;
+      <em>Math Geosci</em>
+      (2020) doi: 10.1007/s11004-020-09877-y
    </p>
 
    <p><a href="http://onlinelibrary.wiley.com/doi/10.1002/fld.4275/abstract">
@@ -53,25 +73,7 @@ Percival, Y. Melnikova, C.C. Pain, M.D. Jackson;
       (2016) doi: 10.1002/fld.4357
    </p>
 
-   <p><a href="http://onlinelibrary.wiley.com/doi/10.1002/fld.4381/pdf">
-           Improving the Robustness of the Control Volume Finite Element Method with Application to Multiphase Porous Media Flow
-      </a><br>
-      P.Salinas, D. Pavlidis, Z. Xie, A. Adam, C. Pain and M.D. Jackson;
-      <em> Int J Numer Meth Fluids. </em>
-      (2017) doi: 10.1002/fld.4381
-   </p>
 
-   <p> <a href="https://www.onepetro.org/journal-paper/SPE-163633-PA">
-          Reservoir Modeling for Flow Simulation by Use of Surfaces, Adaptive
-          Unstructured Meshes, and an Overlapping-Control-Volume
-          Finite-Element Method
-       </a> <br>
-       M.D. Jackson, J.R. Percival, P. Mostaghimi, B. Tollit, D. Pavlidis,
-         C.C. Pain, J. Gomes, A.H. Elsheikh, P. Salinas,
-         A. Muggeridge and M. Blunt;
-       <em> SPE Reservoir Evaluation &amp; Engineering</em>
-       (2015) doi: 10.2118/163633-PA
-    </p>
 
    <p><a href="http://www.earthdoc.eage.org/publication/publicationdetails/?publication=86333">
            Reservoir Modelling Using Parametric Surfaces and Dynamically Adaptive Fully Unstructured Grids
