@@ -16,7 +16,7 @@ excerpt: ""
 
 ## How to cite IC-FERST
 
-Cite <b>Gomes et al. 2016</b>, <b>Salinas et al. 2016</b> and <b>Salinas et al. 2017</b> for the formulation and numerical methods and cite <b>Jackson et al. 2015</b> and <b>Jacquemyn et al. 2019</b> for the general overview of the geological and meshing workflow. 
+Cite <b>Jackson et al. 2015</b> for the overview, <b>Salinas et al. 2017</b> for the formulation and <b>Jacquemyn et al. 2019</b> for the surface-based modelling.
 
 ## Key publications
 
@@ -75,23 +75,6 @@ Percival, Y. Melnikova, C.C. Pain, M.D. Jackson;
 
 
 
-   <p><a href="http://www.earthdoc.eage.org/publication/publicationdetails/?publication=86333">
-           Reservoir Modelling Using Parametric Surfaces and Dynamically Adaptive Fully Unstructured Grids
-      </a><br>
-      Y. Melnikova, C. Jacquemyn, H. Osman, P. Salinas, G. Gorman, G.J. Hampson and M.D. Jackson;
-      <em>ECMOR XV</em>
-      (2016) doi: 10.3997/2214-4609.201601887 
-   </p>
-
-   <p> <a href="https://www.onepetro.org/conference-paper/SPE-173279-MS">
-          A discontinuous overlapping control volume finite element method for multi-phase porous media flow using dynamic unstructured mesh optimization
-       </a> <br>
-       P. Salinas, J.R. Percival, D. Pavlidis, Z. Xie, J.L.M.A. Gomes, C.C. Pain and M.D. Jackson;
-       <em> SPE RSS 2015</em>
-       (2015) doi: SPE-173279-MS
-    </p>
-
-
 
    <p><a href="http://www.sciencedirect.com/science/article/pii/S0045793016302511">
            A balanced-force control volume finite element method for interfacial flows with surface tension using adaptive anisotropic unstructured meshes
@@ -112,15 +95,6 @@ Percival, Y. Melnikova, C.C. Pain, M.D. Jackson;
    </p>
 
 
-
-   <p><a href="http://www.earthdoc.eage.org/publication/publicationdetails/?publication=86330">
-           Geologic Modelling Using Parametric NURBS Surfaces
-      </a><br>
-      C. Jacquemyn, Y. Melnikova, M.D. Jackson,  G.J. Hampson and C.M. John;
-      <em>ECMOR XV</em>
-      (2016) doi: 10.3997/2214-4609.201601884 
-   </p>
-
    <p><a href="https://www.onepetro.org/conference-paper/ARMA-2016-013">
            A Fluid-Solid Coupled Approach for Numerical Modeling of Near Wellbore Hydraulic Fracturing and Flow Dynamics with Adaptive Mesh Refinement
       </a><br>
@@ -128,13 +102,6 @@ Percival, Y. Melnikova, C.C. Pain, M.D. Jackson;
       <em>ARMA 2016</em>
       (2016) doi: ARMA-2016-013
    </p>
-    
-   <p><a href="http://www.sciencedirect.com/science/article/pii/S0021999116301802">
-           Modelling of fluid–structure interaction with multiphase viscous flows using an immersed-body method
-      </a><br>
-       P. Yang, J. Xiang, F. Fang, D. Pavlidis, J.P. Latham and C.C. Pain
-      <em>Journal of Computational Physics</em>
-      (2016) doi: 10.1016/j.jcp.2016.05.035
-   </p>
+
 
 <h3> For more publications visit the personal webpages of any of the people involved in the project.</h3>
