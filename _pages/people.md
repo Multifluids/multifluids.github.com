@@ -48,12 +48,36 @@ Cite <b>Jackson et al. 2015</b> for the overview, <b>Salinas et al. 2017</b> for
       (2019) doi: 10.1007/s11004-018-9764-8
    </p>
 
+   <p><a href="https://www.sciencedirect.com/science/article/pii/S0021999117307313?via%3Dihub">
+           A discontinuous control volume finite element method for multi-phase flow in heterogeneous porous media
+      </a><br>
+      P.Salinas, D. Pavlidis, Z. Xie, H. Osman, C. Pain and M.D. Jackson;
+      <em> Journal of Computational Physics </em>
+      (2018) doi: 10.1016/j.jcp.2017.09.058
+   </p>
+
+   <p><a href="https://www.sciencedirect.com/science/article/pii/S0021999117307313?via%3Dihub">
+           The shape and motion of gas bubbles in a liquid flowing through a thin annulus
+      </a><br>
+    Q. Lei, Z. Xie, D. Pavlidis, P. Salinas, J. Veltin, O. K. Matar, C. C. Pain, A. H. Muggeridge, A. J. Gyllensten and M. D. Jackson 
+      <em> Journal of Fluid Mechanics </em>
+      (2018) doi: 10.1017/jfm.2018.696
+   </p>
+
    <p><a href="https://doi.org/10.1007/s11004-020-09877-y">
            Is Cell-to-Cell Scale Variability Necessary in Reservoir Models?
       </a><br>
       Osman, H., Graham, G.H., Moncorge, A., Jacquemyn, C., Jackson, M.D.;
       <em>Math Geosci</em>
       (2020) doi: 10.1007/s11004-020-09877-y
+   </p>
+
+   <p><a href="https://www.sciencedirect.com/science/article/pii/S0045782519304001?via%3Dihub">
+           Vanishing artificial diffusion as a mechanism to accelerate convergence for multiphase porous media flow
+      </a><br>
+      P.Salinas, C. Pain, H. Osman, C. Jacquemyn, Z. Xie, and M.D. Jackson;
+      <em> Computer Methods in Applied Mechanics and Engineering </em>
+      (2020) doi: 10.1016/j.cma.2019.07.004
    </p>
 
    <p><a href="http://onlinelibrary.wiley.com/doi/10.1002/fld.4275/abstract">
@@ -65,6 +89,14 @@ Percival, Y. Melnikova, C.C. Pain, M.D. Jackson;
       (2016) doi: 10.1002/fld.4275
    </p>
 
+   <p><a href="https://link.springer.com/article/10.1007/s10596-018-9759-z">
+           A robust mesh optimisation method for multiphase porous media flows
+      </a><br>
+      P.Salinas, D. Pavlidis, Z. Xie, H. Osman, C. Pain and M.D. Jackson;
+      <em> Computational geosciences </em>
+      (2018) doi: 10.1007/s10596-018-9759-z
+   </p>
+
    <p><a href="http://onlinelibrary.wiley.com/doi/10.1002/fld.4357/full">
            Improving the convergence behaviour of a fixed-point-iteration solver for multiphase flow in porous media
       </a><br>
@@ -73,7 +105,13 @@ Percival, Y. Melnikova, C.C. Pain, M.D. Jackson;
       (2016) doi: 10.1002/fld.4357
    </p>
 
-
+   <p><a href="https://www.sciencedirect.com/science/article/pii/S0266352X18301824?via%3Dihub">
+           Modelling stress-dependent single and multi-phase flows in fractured porous media based on an immersed-body method with mesh adaptivity
+      </a><br>
+       A. Obeysekara, Q. Lei, P. Salinas, D. Pavlidis, J.P. Latham, J. Xiang and C.C. Pain;
+      <em>Computers and Geotechnics</em>
+      (2018) doi: 10.1016/j.compgeo.2018.07.009
+   </p>
 
 
    <p><a href="http://www.sciencedirect.com/science/article/pii/S0045793016302511">
@@ -95,13 +133,7 @@ Percival, Y. Melnikova, C.C. Pain, M.D. Jackson;
    </p>
 
 
-   <p><a href="https://www.onepetro.org/conference-paper/ARMA-2016-013">
-           A Fluid-Solid Coupled Approach for Numerical Modeling of Near Wellbore Hydraulic Fracturing and Flow Dynamics with Adaptive Mesh Refinement
-      </a><br>
-       A. Obeysekara, Q. Lei, P. Salinas, D. Pavlidis, J.P. Latham, J. Xiang and C.C. Pain;
-      <em>ARMA 2016</em>
-      (2016) doi: ARMA-2016-013
-   </p>
+
 
 
 <h3> For more publications visit the personal webpages of any of the people involved in the project.</h3>
