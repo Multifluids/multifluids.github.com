@@ -14,9 +14,9 @@ layouts_gallery:
 
 ### 3D fluvial channels
 <figure>
-  <img src="{{ '/assets/images/channels.gif' | absolute_url }}" alt="Immiscible porous media flow displacement in a fluvial porous medium.">
+  <img src="{{ '/assets/images/clinoforms_flow.gif' | absolute_url }}" alt="Immiscible porous media flow displacement in a porous medium.">
 </figure>
-In this numerical experiment a set of fluvial channels are considered. The domain is characterised by an aspect ratio of 1:50. The wetting phase is injected over the right boundary and the left boundary is the only open boundary. The dynamic mesh is adapted to the saturation field, introducing the majority of the resolution at the shock-front.
+In this numerical experiment a reservoir composed of a series of clinoforms is considered. The domain is characterised by an aspect ratio of 1:100. The wetting phase is injected and it is represented as an isosurface. The dynamic mesh is adapted to the saturation field, introducing the majority of the resolution at the shock-front.
 
 
 ### 3D fingering

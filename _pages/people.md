@@ -12,11 +12,11 @@ excerpt: ""
 
  -- Lead geologist and surface-based developer: <a href="http://www.imperial.ac.uk/people/c.jacquemyn">Dr. Carl Jacquemyn</a>
 
- -- Current and former people of the team: Dr. A. Hamzehloo, Dr. A. Kampitsis, L. Via-estrem, Dr. D. Pavlidis, Dr. Z. Xie, Dr. J.R. Percival, Dr. F. Fang, Dr. Q. Lei, M. Rood, Dr. A. Adam, Dr. Y. Melnikova, Dr. J.L.M.A. Gomes,  H. Osman, Y. Debbabi, Dr. J.P. Latham, A. Obeysekara, P. Yang and <a href="http://www.imperial.ac.uk/people/j.xiang">Dr. J. Xiang</a>.
+ -- Current people on the team: Dr. A. Obeysekara, J. Al-Kubaisy, G. Regnier, V. Santos, L. Via-estrem, Dr. J.P. Latham, and <a href="http://www.imperial.ac.uk/people/j.xiang">Dr. J. Xiang</a>.
 
 ## How to cite IC-FERST
 
-Cite <b>Gomes et al. 2016</b>, <b>Salinas et al. 2016</b> and <b>Salinas et al. 2017</b> for the formulation and numerical methods and cite <b>Jackson et al. 2015</b> and <b>Melnikova et al. 2016</b> for the general overview of the geological and meshing workflow. 
+Cite <b>Gomes et al. 2016</b>, <b>Salinas et al. 2016</b> and <b>Salinas et al. 2017</b> for the formulation and numerical methods and cite <b>Jackson et al. 2015</b> and <b>Jacquemyn et al. 2019</b> for the general overview of the geological and meshing workflow. 
 
 ## Key publications
 

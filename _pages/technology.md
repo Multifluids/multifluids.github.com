@@ -38,19 +38,8 @@ domains with contrasting material properties. The surfaces that define geologic 
        </a>). Moreover, special methods methods have been developed to ensure that the dynamic mesh optimisation can track fronts when modelling with high courant numbers (<a href="https://doi.org/10.1007/s10596-018-9759-z">
           Salinas et al. 2018
        </a>).
-       
-### Stable with high Courant numbers
-
-IC-FERST has a new method to admit large Courant numbers. The governing equations are discretized in time using an adaptive theta-method. However, the use of
-implicit discretizations does not guarantee convergence of the nonlinear solver for large Courant numbers.
-IC-FERST uses a combination of a vanishing artificial diffusion and a non-linear solver based on a double-fixed point iteration method with backtracking. These technologies improve both
-convergence and convergence rate (<a href="http://onlinelibrary.wiley.com/doi/10.1002/fld.4357/full">
-           Salinas et al. 2016
-      </a> and 
-      <a href="https://www.sciencedirect.com/science/article/pii/S0045782519304001?via%3Dihub">
-           Salinas et al. 2020
-      </a>).
-
+      
+      
 ### Robust and high order formulation
 
 IC-FERST uses a double control volume finite element formulation, which is based on the classical control volume finite element method. 
@@ -66,7 +55,21 @@ oscillations while achieving high-order accuracy where and when possible (<a hre
       </a> and
       <a href="https://www.sciencedirect.com/science/article/pii/S0021999117307313?via%3Dihub">
            Salinas et al. 2019b
+      </a>).      
+      
+       
+### Stable with high Courant numbers
+
+IC-FERST has a new method to admit large Courant numbers. The governing equations are discretized in time using an adaptive theta-method. However, the use of
+implicit discretizations does not guarantee convergence of the nonlinear solver for large Courant numbers.
+IC-FERST uses a combination of a vanishing artificial diffusion and a non-linear solver based on a double-fixed point iteration method with backtracking. These technologies improve both
+convergence and convergence rate (<a href="http://onlinelibrary.wiley.com/doi/10.1002/fld.4357/full">
+           Salinas et al. 2016
+      </a> and 
+      <a href="https://www.sciencedirect.com/science/article/pii/S0045782519304001?via%3Dihub">
+           Salinas et al. 2020
       </a>).
+
 
 ### High order mesh to mesh interpolation
 IC-FERST implements a higher-order, conservative and bounded interpolation that guarantees mass and energy conservation when interpolatin between meshes. This is of vital importance when using dynamic mesh optimisation.. See <a href="http://www.sciencedirect.com/science/article/pii/S0021999116302030">
