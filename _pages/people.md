@@ -12,7 +12,7 @@ excerpt: ""
 
  -- Lead geologist and surface-based developer: <a href="http://www.imperial.ac.uk/people/c.jacquemyn">Dr. Carl Jacquemyn</a>
 
- -- Current people on the team: Dr. A. Obeysekara, J. Al-Kubaisy, G. Regnier, V. Santos, L. Via-estrem, Dr. J.P. Latham, and <a href="http://www.imperial.ac.uk/people/j.xiang">Dr. J. Xiang</a>.
+ -- Current people on the team: Dr. A. Obeysekara, J. Al-Kubaisy, G. Regnier, V. Santos, Dr. H. Hu, M. Kerhouant, A. Nadimy, J. Aniket, L. Via-estrem, Dr. J.P. Latham, and <a href="http://www.imperial.ac.uk/people/j.xiang">Dr. J. Xiang</a>.
 
 ## How to cite IC-FERST
 
