@@ -22,6 +22,10 @@ IC-FERST uses a surface-based geological modelling (SBGM) workflow that uses NUR
            Jacquemyn et al. 2019
       </a>).
 
+<figure>
+  <img src="{{ '/assets/images/meandering_animation02_w800.gif' | absolute_url }}" alt="Surface-based representation of a meandering channel.">
+</figure>
+
 Petrophysical properties of rocks do vary on a point-to-point basis, however this variability is not equivalent to the cell-to-cell variations in flow models. The results presented here indicate that grid-based reservoir models containing many unique values of petrophysical properties (of order hundreds-of-thousands in the examples tested) varying on a cell-to-cell basis can be collapsed into a much smaller number of larger but more geometrically complex domains which are internally homogeneous, irrespective of the reservoir geology, fluid properties or well configuration. Cell-to-cell variability is not necessary to capture flow in reservoir models; rather, it is the spatially correlated variability in petrophysical properties that is important. Reservoir modelling effort should focus on capturing correlated geologic domains in the most realistic and computationally efficient manner (<a href="https://doi.org/10.1007/s11004-020-09877-y">
           Osman et al. 2020
        </a>).
@@ -32,8 +36,9 @@ Dynamic mesh optimisation employs the surfaces that define the boundaries of the
 domains with contrasting material properties. The surfaces that define geologic heterogeneity are preserved during adaptivity. The mesh is adapted to provide high resolution to certain fields, for porous media simulations this is normally the pressure and the saturation field (<a href="https://www.onepetro.org/journal-paper/SPE-163633-PA">
           Jackson et al. 2015
        </a>). Moreover, special methods methods have been developed to ensure that the dynamic mesh optimisation can track fronts when modelling with high courant numbers (<a href="https://doi.org/10.1007/s10596-018-9759-z">
-          Salinas et al. 2018).
-
+          Salinas et al. 2018
+       </a>).
+       
 ### Stable with high Courant numbers
 
 IC-FERST has a new method to admit large Courant numbers. The governing equations are discretized in time using an adaptive theta-method. However, the use of
