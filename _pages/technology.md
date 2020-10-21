@@ -26,9 +26,9 @@ IC-FERST uses a surface-based geological modelling (SBGM) workflow that uses NUR
   <img src="{{ '/assets/images/meandering_animation02_w800.gif' | absolute_url }}" alt="Surface-based representation of a meandering channel.">
 </figure>
 
-Petrophysical properties of rocks do vary on a point-to-point basis, however this variability is not equivalent to the cell-to-cell variations in flow models. The results presented here indicate that grid-based reservoir models containing many unique values of petrophysical properties (of order hundreds-of-thousands in the examples tested) varying on a cell-to-cell basis can be collapsed into a much smaller number of larger but more geometrically complex domains which are internally homogeneous, irrespective of the reservoir geology, fluid properties or well configuration. Cell-to-cell variability is not necessary to capture flow in reservoir models; rather, it is the spatially correlated variability in petrophysical properties that is important. Reservoir modelling effort should focus on capturing correlated geologic domains in the most realistic and computationally efficient manner (<a href="https://doi.org/10.1007/s11004-020-09877-y">
+The results of <a href="https://doi.org/10.1007/s11004-020-09877-y">
           Osman et al. 2020
-       </a>).
+       </a> indicate that petrophysical properties of rocks do vary on a point-to-point basis, however this variability is not equivalent to the cell-to-cell variations in flow models. The results presented here indicate that grid-based reservoir models containing many unique values of petrophysical properties (of order hundreds-of-thousands in the examples tested) varying on a cell-to-cell basis can be collapsed into a much smaller number of larger but more geometrically complex domains which are internally homogeneous, irrespective of the reservoir geology, fluid properties or well configuration. Cell-to-cell variability is not necessary to capture flow in reservoir models; rather, it is the spatially correlated variability in petrophysical properties that is important. Reservoir modelling effort should focus on capturing correlated geologic domains in the most realistic and computationally efficient manner.
 
 ### Unstructure dynamic mesh optimisation
 
