@@ -14,7 +14,7 @@ layouts_gallery:
     alt: "archive layout example"
 ---
 
-### Surface-ased geological modelling
+### Surface-based geological modelling
 
 IC-FERST uses a surface-based geological modelling (SBGM) workflow that uses NURBS (Non-Uniform Rational B-Splines) surfaces to represent geological heterogeneities without reference to a pre-defined grid. The NURBS surfaces represent a broad range of heterogeneity. The geological model is constructed using the NURBS surfaces and an unstructured mesh created only when required for flow simulation or other calculations. Surface interactions, such as truncation, erosion, stacking or conforming, are enforced to ensure geological relationships are preserved and the boundary representation is watertight (<a href="https://www.onepetro.org/journal-paper/SPE-163633-PA">
           Jackson et al. 2015
