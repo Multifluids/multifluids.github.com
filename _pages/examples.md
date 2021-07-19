@@ -20,6 +20,11 @@ In this numerical experiment a reservoir carbonate clinoforms on the island of B
 
 Geological description: Mid-Miocene progradational platform carbonates of the Seroe Domi Formation. At the type locale in Seru Grandi, these form a succession of shallow-water carbonate deposits that are exposed in a terrace erosional morphology, offlapping a topographically complex volcanic basement. The progradational clinoforms composed of up to 70% calcareous coralline red algae with minor coral fragments, large benthic foraminifera, echinoids, rare bivalves and subordinate volcanic lithic clasts. Individual clinoform beds exhibit lateral changes in facies, with the upslope section consisting predominantly of encrusting red algae and rhodolite facies, grading downslope over a distance of 30-40 m into a bioclastic facies. These two facies are notable for the lack of significant reef-building corals, which are absent from many outcrops, and where present, occur only rarely. All facies have been dolomitized to varying degrees, ranging from undolomitized to completely dolomitized.
 
+### Geothermal reservoir well location optimisation
+<figure>
+  <img src="{{ '/assets/images/Comparison12_withwells_fullQ.gif' | absolute_url }}" alt="Geothermal reservoir well location optimisation.">
+</figure>
+12 instances of a Geothermal well double in a faulted reservoir as part of a well location optimistion using IC-FERST, IC-SURF and a genetic algorithm to perform the search of the optimal. The model comprises from the surface to 2 km below the reservoir, here a cut of the model is shown only. 
 
 ### Geothermal reservoir with deviated wells
 <figure>
