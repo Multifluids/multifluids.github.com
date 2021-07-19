@@ -24,7 +24,8 @@ Geological description: Mid-Miocene progradational platform carbonates of the Se
 <figure>
   <img src="{{ '/assets/images/Comparison12_withwells_fullQ.gif' | absolute_url }}" alt="Geothermal reservoir well location optimisation.">
 </figure>
-12 instances of a Geothermal well double in a faulted reservoir as part of a well location optimistion using IC-FERST, IC-SURF and a genetic algorithm to perform the search of the optimal. The model comprises from the surface to 2 km below the reservoir, here a cut of the model is shown only. 
+Preview of how Genetic Algorithms are being used to optimise geothermal well locations.Different geothermal well configurations are ranked by thermal breakthrough. In this case a geothermal doublet is positioned around a relay ramp in layered rocks.
+Dynamic mesh optimisation throughout simulations ensures the simulation mesh is always optimal for the well positions being tested without user intervention.
 
 ### Geothermal reservoir with deviated wells
 <figure>
