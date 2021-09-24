@@ -16,7 +16,10 @@ layouts_gallery:
 <figure>
   <img src="{{ '/assets/images/clinoforms_flow.gif' | absolute_url }}" alt="Immiscible porous media flow displacement in a porous medium.">
 </figure>
-In this numerical experiment a reservoir carbonate clinoforms on the island of Bonaire consisting of bioclastic (yellow) and rhodolitic (orange) limestone, partly dolomitised (red) is considered. The video shows the two phase flow displacement when injecting from one end and producing from the other end. For more information see: https://doi.org/10.1016/j.marpetgeo.2021.105344
+In this numerical experiment a reservoir carbonate clinoforms on the island of Bonaire consisting of bioclastic (yellow) and rhodolitic (orange) limestone, partly dolomitised (red) is considered. The video shows the two phase flow displacement when injecting from one end and producing from the other end. For more information see <p> <a href="https://doi.org/10.1016/j.marpetgeo.2021.105344">
+          The effects of dolomite geobodies within carbonate clinoforms on fluid flow and connectivity: Insights from an outcrop analogue on Bonaire, The Netherlands (South Caribbean)
+       </a> <br>
+
 
 Geological description: Mid-Miocene progradational platform carbonates of the Seroe Domi Formation. At the type locale in Seru Grandi, these form a succession of shallow-water carbonate deposits that are exposed in a terrace erosional morphology, offlapping a topographically complex volcanic basement. The progradational clinoforms composed of up to 70% calcareous coralline red algae with minor coral fragments, large benthic foraminifera, echinoids, rare bivalves and subordinate volcanic lithic clasts. Individual clinoform beds exhibit lateral changes in facies, with the upslope section consisting predominantly of encrusting red algae and rhodolite facies, grading downslope over a distance of 30-40 m into a bioclastic facies. These two facies are notable for the lack of significant reef-building corals, which are absent from many outcrops, and where present, occur only rarely. All facies have been dolomitized to varying degrees, ranging from undolomitized to completely dolomitized.
 
