@@ -17,7 +17,7 @@ layouts_gallery:
 
 The multifluid Fluidity/IC-Ferst code base is developed and used at a number of academic institutions across the UK, including <a href="http://www.imperial.ac.uk/">Imperial College London</a>, <a href="the%20University%20of%20Aberdeen">the University of Aberdeen</a>, <a href="https://www.qub.ac.uk/">Queen's University Belfast</a>, <a href="https://www.uc.edu/">University of Cincinnati</a> and <a href="http://www.lsbu.ac.uk/">London South Bank University</a>. The code is released under the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero Public License version 3.0</a>. Public releases are made at irregular intervals.<br>
 
-To request access to the development repository, or to request further information, please contact the heads of the project, <a href="http://www.imperial.ac.uk/people/c.pain">Professor Christopher Pain</a> or <a href="http://www.imperial.ac.uk/people/m.d.jackson">Professor Matthew D. Jackson</a>.<br>
+To request access to the development repository, or to request further information, please contact the heads of the project: <a href="http://www.imperial.ac.uk/people/pablo.salinas">Doctor Pablo Salinas</a>, <a href="http://www.imperial.ac.uk/people/c.pain">Professor Christopher Pain</a> or <a href="http://www.imperial.ac.uk/people/m.d.jackson">Professor Matthew D. Jackson</a>.<br>
 
 <address>
 Department of Earth Science and Engineering<br>
@@ -45,19 +45,31 @@ The list of commands to get IC-FERST working is as follows:
 sudo apt-add-repository ppa:fluidity-core/ppa
 sudo apt-get update
 sudo apt-get install fluidity-dev
+{% endhighlight %}
+
+-- Ubuntu 18.04 Next modify the .bashrc file in home to include
+{% highlight bash %}
 export PETSC_DIR=/usr/lib/petscdir/3.8.3
+{% endhighlight %}
+
+-- Ubuntu 20.04 Next modify the .bashrc file in home to include
+{% highlight bash %}
+export FCFLAGS="-I/usr/include"
+{% endhighlight %}
+You may need to exlicitly include the python dependencies
+{% highlight bash %}
+export PYTHONPATH=/usr/lib/python3
 {% endhighlight %}
 
 It can be downloaded from github with the following one-line command
 {% highlight bash %}
-mkdir ICFERST && cd ICFERST && git init && git remote add -t  master  -f origin git@github.com:Multifluids/icferst.git && git checkout master
+mkdir ICFERST && cd ICFERST && git init && git remote add -t  main  -f origin git@github.com:Multifluids/icferst.git && git checkout main
 {% endhighlight %}
 
 -- Next Navigate to the root directory of your IC-FERST folder
 {% highlight bash %}
 cd IC-FERST-FOLDER/
-./configure --enable-2d-adaptivity
-make mp
+sudo ./configure --enable-2d-adaptivity && make install
 {% endhighlight %}
 
 <h2> Using the diamond GUI to configure test cases </h2>

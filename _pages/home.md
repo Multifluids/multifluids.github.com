@@ -4,11 +4,11 @@ permalink: /
 header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/mm-home-page-feature.jpg
-  cta_label: "<i class='fa fa-download'></i>Contact us to get involved"
-  cta_url: "http://multifluids.github.io/people/"
+  cta_label: "<i class='fa fa-download'></i>Download it now"
+  cta_url: "https://github.com/Multifluids/ICFERST/archive/refs/heads/main.zip"
   caption:
 excerpt: 'IC-FERST is a next generation reservoir simulator based on Control-Volume Finite Element methods and dynamic unstructured mesh optimisation. IC-FERST is free and open-source currently being developed internally. Nonetheless, the project is open for collaborators!
-<br /> <small><a href="https://github.com/ImperialCollegeLondon/multifluids_icferst">Private repository</a></small><br /><br /> {::nomarkdown}{:/nomarkdown}'
+<br /> <small><a href="https://github.com/Multifluids/ICFERST">Public repository</a></small><br /><br /> {::nomarkdown}{:/nomarkdown}'
 feature_row:
   - image_path: /assets/images/mm-surface-based.png
     alt: "customizable"
