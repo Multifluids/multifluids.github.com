@@ -40,33 +40,34 @@ The basic list of supporting software, and method of installation, is the same a
 This is the best supported operating system. Intructions to install the necessary packages using the system package managers are given <a href="https://github.com/FluidityProject/fluidity/wiki/FAQ%3A-How-do-I-install-Fluidity-on-Ubuntu-LTS%3F">here</a>. Once the fluidity-dev package has been installed, your system should be able to compile the IC-Ferst/ Multifluid Fluidity package, which may be downloaded at the foot of this page. 
 The list of commands to get IC-FERST working is as follows:
 
--- First install the Fluidity dependencies
+Download it from github with the following one-line command
+{% highlight bash %}
+mkdir ICFERST && cd ICFERST && git init && git remote add -t  main  -f origin git@github.com:Multifluids/icferst.git && git checkout main
+{% endhighlight %}
+
+-- Install dependencies
 {% highlight bash %}
 sudo apt-add-repository ppa:fluidity-core/ppa
 sudo apt-get update
 sudo apt-get install fluidity-dev
 {% endhighlight %}
 
--- Ubuntu 18.04 Next modify the .bashrc file in home to include
+-- Ubuntu 18.04, modify the .bashrc file in home to include
 {% highlight bash %}
 export PETSC_DIR=/usr/lib/petscdir/3.8.3
 {% endhighlight %}
 
--- Ubuntu 20.04 Next modify the .bashrc file in home to include
+-- Ubuntu 20.04, modify the .bashrc file in home to include
 {% highlight bash %}
 export FCFLAGS="-I/usr/include"
 {% endhighlight %}
-You may need to exlicitly include the python dependencies
+
+You may need to explicitly include the python dependencies
 {% highlight bash %}
 export PYTHONPATH=/usr/lib/python3
 {% endhighlight %}
 
-It can be downloaded from github with the following one-line command
-{% highlight bash %}
-mkdir ICFERST && cd ICFERST && git init && git remote add -t  main  -f origin git@github.com:Multifluids/icferst.git && git checkout main
-{% endhighlight %}
-
--- Next Navigate to the root directory of your IC-FERST folder
+-- Navigate to the root directory of your ICFERST folder
 {% highlight bash %}
 cd IC-FERST-FOLDER/
 sudo ./configure --enable-2d-adaptivity && make install
