@@ -6,13 +6,13 @@ excerpt: ""
 
 ## People
 
- -- Heads of the project: <a href="http://www.imperial.ac.uk/people/c.pain">Professor Christopher C. Pain</a> and  <a href="http://www.imperial.ac.uk/people/m.d.jackson">Professor Matthew D. Jackson</a>
+ -- Heads of the project: <a href="http://www.imperial.ac.uk/people/pablo.salinas">Dr Pablo Salinas</a>, <a href="http://www.imperial.ac.uk/people/c.pain">Professor Christopher Pain</a> or <a href="http://www.imperial.ac.uk/people/m.d.jackson">Professor Matthew D. Jackson</a>.
 
  -- Lead developers of IC-FERST: <a href="http://www.imperial.ac.uk/people/pablo.salinas">Dr. Pablo Salinas</a> 
 
  -- Lead geologist and surface-based developer: <a href="http://www.imperial.ac.uk/people/c.jacquemyn">Dr. Carl Jacquemyn</a>
 
- -- Current people on the team: Dr. A. Obeysekara, J. Al-Kubaisy, G. Regnier, V. Santos, Dr. H. Hu, M. Kerhouant, A. Nadimy, J. Aniket, L. Via-estrem, Dr. J.P. Latham, and <a href="http://www.imperial.ac.uk/people/j.xiang">Dr. J. Xiang</a>.
+ -- Current people on the team: Dr. M. Bahlali, Dr. A. Obeysekara, J. Al-Kubaisy, G. Regnier, V. Santos, Dr. H. Hu, M. Kerhouant, A. Nadimy, J. Aniket, L. Via-estrem, Dr. J.P. Latham, and <a href="http://www.imperial.ac.uk/people/j.xiang">Dr. J. Xiang</a>.
 
 ## How to cite IC-FERST
 

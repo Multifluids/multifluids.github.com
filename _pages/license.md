@@ -17,7 +17,7 @@ layouts_gallery:
 
 The multifluid Fluidity/IC-Ferst code base is developed and used at a number of academic institutions across the UK, including <a href="http://www.imperial.ac.uk/">Imperial College London</a>, <a href="the%20University%20of%20Aberdeen">the University of Aberdeen</a>, <a href="https://www.qub.ac.uk/">Queen's University Belfast</a>, <a href="https://www.uc.edu/">University of Cincinnati</a> and <a href="http://www.lsbu.ac.uk/">London South Bank University</a>. The code is released under the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero Public License version 3.0</a>. Public releases are made at irregular intervals.<br>
 
-To request access to the development repository, or to request further information, please contact the heads of the project: <a href="http://www.imperial.ac.uk/people/pablo.salinas">Doctor Pablo Salinas</a>, <a href="http://www.imperial.ac.uk/people/c.pain">Professor Christopher Pain</a> or <a href="http://www.imperial.ac.uk/people/m.d.jackson">Professor Matthew D. Jackson</a>.<br>
+To request access to the development repository, or to request further information, please contact the heads of the project: <a href="http://www.imperial.ac.uk/people/pablo.salinas">Dr Pablo Salinas</a>, <a href="http://www.imperial.ac.uk/people/c.pain">Professor Christopher Pain</a> or <a href="http://www.imperial.ac.uk/people/m.d.jackson">Professor Matthew D. Jackson</a>.<br>
 
 <address>
 Department of Earth Science and Engineering<br>
