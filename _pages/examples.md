@@ -71,11 +71,11 @@ Example of the fluid-rock mechanics interaction, creation of fractures in a poro
 Droplet spread, with a precision of 100 microns, of a cough (0.026 seconds). As part of the project [RAMP7](https://royalsociety.org/topics-policy/Health%20and%20wellbeing/ramp/). Left water saturation, right velocity.
 
 
-### Water splashing in an object
+### Water splashing against an object
 <figure>
   <img src="{{ '/assets/images/wave_splash.gif' | absolute_url }}" alt="A column of water collapsing in air under its own weight.">
 </figure>
-A column of water collapsing in air under its own weight impacting with an object.
+A column of water collapsing under its own weight impacting with an object.
 
 
 

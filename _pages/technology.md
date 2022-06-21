@@ -40,7 +40,7 @@ domains with contrasting material properties. The surfaces that define geologic 
        </a>).
       
       
-### Robust and high order formulation
+### Robust and mass-conservative formulation
 
 IC-FERST uses a double control volume finite element formulation, which is based on the classical control volume finite element method. 
 The formulation in IC-FERST keeps and properties of the classical CVFEM such as mass conservation and the ability to be used with unstructured grids while also providing us with greater robustness against distorted meshes. This latter is fundamental as the aspect ratio of the geological models tend to be very high. The ability to deal with distorted meshes ensures that the in the dynamic mesh optimisation process we do not end up with a mesh that cannot be solved and also enables us to reduce the number of required elements by using bad quality elements in regions where the precision is not very important at certain time (<a href="https://doi.org/10.1002/fld.4381">

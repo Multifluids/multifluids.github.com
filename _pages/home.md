@@ -5,10 +5,10 @@ header:
   overlay_color: "#5e616c"
   overlay_image: /assets/images/mm-home-page-feature.jpg
   cta_label: "<i class='fa fa-download'></i>Download it now"
-  cta_url: "https://github.com/Multifluids/ICFERST/archive/refs/heads/main.zip"
+  cta_url: "https://github.com/ImperialCollegeLondon/multifluids_icferst/archive/refs/heads/master.zip"
   caption:
-excerpt: 'IC-FERST is a next generation reservoir simulator based on Control-Volume Finite Element methods and dynamic unstructured mesh optimisation. IC-FERST is free and open-source currently being developed internally. Nonetheless, the project is open for collaborators!
-<br /> <small><a href="https://github.com/Multifluids/ICFERST">Public repository</a></small><br /><br /> {::nomarkdown}{:/nomarkdown}'
+excerpt: 'IC-FERST is a next generation reservoir simulator based on the Double-Control-Volume Finite Element method, dynamic unstructured mesh optimisation and surface-based modelling for the geological representation. IC-FERST is free and open-source.
+<br /> <small><a href="https://github.com/ImperialCollegeLondon/multifluids_icferst">Github repository</a></small><br /><br /> {::nomarkdown}{:/nomarkdown}'
 feature_row:
   - image_path: /assets/images/mm-surface-based.png
     alt: "customizable"
@@ -37,9 +37,4 @@ intro:
 {% include feature_row %}
 
 
-# Applications
-
-IC-FERST is an open source multiphase simulation tool based on <a href="http://fluidityproject.github.io/">
-           Fluidity
-      </a> that is able to solve the Darcy and the Navier-Stokes equations in 2 and 3 dimensions. It uses dynamic unstructured mesh optimisation and has been parallelized using MPI and also has been tested on the U.K. national super computer Archer. IC-FERST has been used for the following scientific areas: Porous media and inertia dominated flows, interfacial tension flows, viscous fingering, flooding and rock fracturing.
 
