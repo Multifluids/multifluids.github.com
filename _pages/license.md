@@ -27,7 +27,6 @@ Imperial College London<br>
 SW7 2BP<br>
 </address>
 
- 
 ## How to install
 ---
 <p> IC-FERST is developed and run on Linux. To install on such machines it is necessary to install certain supporting software.</p>

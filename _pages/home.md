@@ -7,7 +7,10 @@ header:
   cta_label: "<i class='fa fa-download'></i>Download it now"
   cta_url: "https://github.com/ImperialCollegeLondon/multifluids_icferst/archive/refs/heads/master.zip"
   caption:
-excerpt: 'IC-FERST is a next generation reservoir simulator based on the Double-Control-Volume Finite Element method, dynamic unstructured mesh optimisation and surface-based modelling for the geological representation. IC-FERST is free and open-source.
+excerpt: 'IC-FERST is a next generation reservoir simulator based on the Double-Control-Volume Finite Element method, dynamic unstructured mesh optimisation and surface-based modelling for the geological representation. IC-FERST is free and open-source (AGPLv3).
+
+
+{% include button.html url="http://www.google.com" %}
 <br /> <small><a href="https://github.com/ImperialCollegeLondon/multifluids_icferst">Github repository</a></small><br /><br /> {::nomarkdown}{:/nomarkdown}'
 feature_row:
   - image_path: /assets/images/mm-surface-based.png
@@ -22,12 +25,12 @@ feature_row:
     excerpt: "Dynamic mesh optimisation, high order methods, novel discretizations, resilient against 'poor' quality meshes, etc. "
     url: "/examples/"
     btn_label: "Learn More"
-  - image_path: /assets/images/mm-OpenSourceLogo.png
-    alt: "100% free"
-    title: "Code license"
-    excerpt: "IC-FERST is free to use, it is licensed under the AGPLv3."
-    url: "/license/"
-    btn_label: "Learn More"
+  - image_path: /assets/images/manual-154693_640.png
+    alt: "Documentation"
+    title: "Documentation"
+    excerpt: "Documentation of the ICFERST code (generated with doxygen)."
+    url: "https://imperialcollegelondon.github.io/multifluids_icferst/"
+    btn_label: "Documentation"
 github:
 intro:
 ---
