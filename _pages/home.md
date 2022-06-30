@@ -10,7 +10,6 @@ header:
 excerpt: 'IC-FERST is a next generation reservoir simulator based on the Double-Control-Volume Finite Element method, dynamic unstructured mesh optimisation and surface-based modelling for the geological representation. IC-FERST is free and open-source (AGPLv3).
 
 
-{% include button.html url="http://www.google.com" %}
 <br /> <small><a href="https://github.com/ImperialCollegeLondon/multifluids_icferst">Github repository</a></small><br /><br /> {::nomarkdown}{:/nomarkdown}'
 feature_row:
   - image_path: /assets/images/mm-surface-based.png
