@@ -39,10 +39,8 @@ The basic list of supporting software, and method of installation, is the same a
 This is the best supported operating system. Intructions to install the necessary packages using the system package managers are given <a href="https://github.com/FluidityProject/fluidity/wiki/FAQ%3A-How-do-I-install-Fluidity-on-Ubuntu-LTS%3F">here</a>. Once the fluidity-dev package has been installed, your system should be able to compile the IC-Ferst/ Multifluid Fluidity package, which may be downloaded at the foot of this page. 
 The list of commands to get IC-FERST working is as follows:
 
-Download it from github with the following one-line command
-{% highlight bash %}
-mkdir ICFERST && cd ICFERST && git init && git remote add -t  main  -f origin git@github.com:Multifluids/icferst.git && git checkout main
-{% endhighlight %}
+Download it from github with the following the link from the main page.
+
 
 -- Install dependencies
 {% highlight bash %}
@@ -69,7 +67,7 @@ export PYTHONPATH=/usr/lib/python3
 -- Navigate to the root directory of your ICFERST folder
 {% highlight bash %}
 cd IC-FERST-FOLDER/
-sudo ./configure --enable-2d-adaptivity && make install
+sudo ./configure --enable-2d-adaptivity && sudo make install
 {% endhighlight %}
 
 <h2> Using the diamond GUI to configure test cases </h2>
