@@ -16,7 +16,7 @@ layouts_gallery:
 <figure>
   <img src="{{ '/assets/images/clinoforms_flow.gif' | absolute_url }}" alt="Immiscible porous media flow displacement in a porous medium.">
 </figure>
-In this numerical experiment a reservoir carbonate clinoforms on the island of Bonaire consisting of bioclastic (yellow) and rhodolitic (orange) limestone, partly dolomitised (red) is considered. The video shows the two phase flow displacement when injecting from one end and producing from the other end. For more information see <p> <a href="https://doi.org/10.1016/j.marpetgeo.2021.105344">
+In this numerical experiment a reservoir carbonate clinoforms on the island of Bonaire consisting of bioclastic (yellow) and rhodolitic (orange) limestone, partly dolomitised (red) is considered. The video shows the two phase flow displacement when injecting from one end and producing from the other end. For more information see <a href="https://doi.org/10.1016/j.marpetgeo.2021.105344">
           The effects of dolomite geobodies within carbonate clinoforms on fluid flow and connectivity: Insights from an outcrop analogue on Bonaire, The Netherlands (South Caribbean)
        </a> <br>
 
