@@ -6,7 +6,7 @@ excerpt: ""
 
 ## People
 
- -- Heads of the project: <a href="http://www.imperial.ac.uk/people/m.d.jackson">Professor Matthew D. Jackson</a>.
+ -- Head of the project: <a href="http://www.imperial.ac.uk/people/m.d.jackson">Professor Matthew D. Jackson</a>.
 
  -- Lead geologist and surface-based developer: <a href="http://www.imperial.ac.uk/people/c.jacquemyn">Dr. Carl Jacquemyn</a>
 
