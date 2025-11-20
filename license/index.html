@@ -142,7 +142,7 @@
             <li class="masthead__menu-item"><a href="https://multifluids.github.io/people/">People and publications</a></li>
           
             
-            <li class="masthead__menu-item"><a href="https://multifluids.github.io/license/">About</a></li>
+            <li class="masthead__menu-item"><a href="https://multifluids.github.io/license/">About & Install</a></li>
           
         </ul>
         <ul class="hidden-links hidden"></ul>
@@ -273,7 +273,7 @@
       
 
       <section class="page__content" itemprop="text">
-        <p>The multifluid Fluidity/IC-Ferst code base is developed and used at a number of academic institutions across the UK, including <a href="http://www.imperial.ac.uk/">Imperial College London</a>, <a href="the%20University%20of%20Aberdeen">the University of Aberdeen</a>, <a href="https://www.qub.ac.uk/">Queen’s University Belfast</a>, <a href="https://www.uc.edu/">University of Cincinnati</a> and <a href="http://www.lsbu.ac.uk/">London South Bank University</a>. The code is released under the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero Public License version 3.0</a>. Public releases are made at irregular intervals.<br /></p>
+        <p>The multifluid Fluidity/IC-FERST code base is developed and used at a number of academic institutions across the UK, including <a href="http://www.imperial.ac.uk/">Imperial College London</a>, <a href="the%20University%20of%20Aberdeen">the University of Aberdeen</a>, <a href="https://www.qub.ac.uk/">Queen’s University Belfast</a>, <a href="https://www.uc.edu/">University of Cincinnati</a> and <a href="http://www.lsbu.ac.uk/">London South Bank University</a>. The code is released under the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero Public License version 3.0</a>. Public releases are made at irregular intervals.<br /></p>
 
 <p>To request further information, please contact the head of the project: <a href="http://www.imperial.ac.uk/people/m.d.jackson">Professor Matthew D. Jackson</a>.<br /></p>
 
@@ -293,7 +293,7 @@ SW7 2BP<br />
 
 <h2> Installing on Ubuntu </h2>
 
-<p>This is the best supported operating system. Intructions to install the necessary packages using the system package managers are given <a href="https://github.com/FluidityProject/fluidity/wiki/FAQ%3A-How-do-I-install-Fluidity-on-Ubuntu-LTS%3F">here</a>. Once the fluidity-dev package has been installed, your system should be able to compile the IC-Ferst/ Multifluid Fluidity package, which may be downloaded at the foot of this page. 
+<p>This is the best supported operating system. Intructions to install the necessary packages using the system package managers are given <a href="https://github.com/FluidityProject/fluidity/wiki/FAQ%3A-How-do-I-install-Fluidity-on-Ubuntu-LTS%3F">here</a>. Once the fluidity-dev package has been installed, your system should be able to compile the IC-FERST/ Multifluids Fluidity package, which may be downloaded at the foot of this page.
 The list of commands to get IC-FERST working is as follows:</p>
 
 <p>Download it from github with the following the link from the main page.</p>
@@ -314,14 +314,14 @@ The list of commands to get IC-FERST working is as follows:</p>
 
 <p>– Ubuntu 24.04, set up the configuration file correctly by running</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash">     <span class="nb">sudo </span>apt-get <span class="nb">install </span>autoconf-archive python-is-python3 pkg-config
-     autoreconf <span class="nt">--force</span> <span class="nt">--install</span></code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo </span>apt-get <span class="nb">install </span>autoconf-archive python-is-python3 pkg-config
+autoreconf <span class="nt">--force</span> <span class="nt">--install</span></code></pre></figure>
 
 <p>You may need to explicitly include the python dependencies</p>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">export </span><span class="nv">PYTHONPATH</span><span class="o">=</span>/usr/lib/python3</code></pre></figure>
 
-<p>– Navigate to the root directory of your ICFERST folder. You can install the application for all users by running:</p>
+<p>– Navigate to the root directory of your IC-FERST folder. You can install the application for all users by running:</p>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">cd </span>IC-FERST-FOLDER/
 <span class="nb">sudo</span> ./configure <span class="nt">--enable-2d-adaptivity</span> <span class="o">&amp;&amp;</span> <span class="nb">sudo </span>make <span class="nb">install</span></code></pre></figure>
@@ -335,12 +335,11 @@ make mp <span class="o">&amp;&amp;</span> make <span class="nb">install</span></
 <h2> Using the diamond GUI to configure test cases </h2>
 <p>The input files are “EXAMPLE.mpml”. This files can be either manipulated using diamond a GUI, or a text file. To open the diamond GUI for ICFERST this is an example, found in the examples folder in IC-FERST-FOLDER/legacy_reservoir_prototype/tests/3D_BL</p>
 
-<figure class="highlight"><pre><code class="language-bash" data-lang="bash">diamond <span class="nt">-s</span> IC-FERST-FOLDER/legacy_reservoir_prototype/schemas/multiphase.rng 3D_test.mpml</code></pre></figure>
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">diamond <span class="nt">-s</span> IC-FERST-FOLDER/ICFERST/schemas/multiphase.rng 3D_test.mpml</code></pre></figure>
 
 <h2> Installing on other Linux systems </h2>
 
 <p>Although less well supported, the code has been found to run successfully on Red Hat and OpenSUSE systemd. A list of hints and tips for these and other systems may be found <a href="https://github.com/FluidityProject/fluidity/wiki/FAQs">here</a>.</p>
-
 
         
       </section>
