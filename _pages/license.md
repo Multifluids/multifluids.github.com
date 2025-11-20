@@ -15,7 +15,7 @@ layouts_gallery:
 ## Contact details
 ---
 
-The multifluid Fluidity/IC-Ferst code base is developed and used at a number of academic institutions across the UK, including <a href="http://www.imperial.ac.uk/">Imperial College London</a>, <a href="the%20University%20of%20Aberdeen">the University of Aberdeen</a>, <a href="https://www.qub.ac.uk/">Queen's University Belfast</a>, <a href="https://www.uc.edu/">University of Cincinnati</a> and <a href="http://www.lsbu.ac.uk/">London South Bank University</a>. The code is released under the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero Public License version 3.0</a>. Public releases are made at irregular intervals.<br>
+The multifluid Fluidity/IC-FERST code base is developed and used at a number of academic institutions across the UK, including <a href="http://www.imperial.ac.uk/">Imperial College London</a>, <a href="the%20University%20of%20Aberdeen">the University of Aberdeen</a>, <a href="https://www.qub.ac.uk/">Queen's University Belfast</a>, <a href="https://www.uc.edu/">University of Cincinnati</a> and <a href="http://www.lsbu.ac.uk/">London South Bank University</a>. The code is released under the <a href="https://www.gnu.org/licenses/agpl-3.0.en.html">GNU Affero Public License version 3.0</a>. Public releases are made at irregular intervals.<br>
 
 To request further information, please contact the head of the project: <a href="http://www.imperial.ac.uk/people/m.d.jackson">Professor Matthew D. Jackson</a>.<br>
 
@@ -36,7 +36,7 @@ The basic list of supporting software, and method of installation, is the same a
 
 <h2> Installing on Ubuntu </h2>
 
-This is the best supported operating system. Intructions to install the necessary packages using the system package managers are given <a href="https://github.com/FluidityProject/fluidity/wiki/FAQ%3A-How-do-I-install-Fluidity-on-Ubuntu-LTS%3F">here</a>. Once the fluidity-dev package has been installed, your system should be able to compile the IC-Ferst/ Multifluid Fluidity package, which may be downloaded at the foot of this page. 
+This is the best supported operating system. Intructions to install the necessary packages using the system package managers are given <a href="https://github.com/FluidityProject/fluidity/wiki/FAQ%3A-How-do-I-install-Fluidity-on-Ubuntu-LTS%3F">here</a>. Once the fluidity-dev package has been installed, your system should be able to compile the IC-FERST/ Multifluids Fluidity package, which may be downloaded at the foot of this page.
 The list of commands to get IC-FERST working is as follows:
 
 Download it from github with the following the link from the main page.
@@ -62,16 +62,16 @@ export FCFLAGS="-I/usr/include"
 
 -- Ubuntu 24.04, set up the configuration file correctly by running
 {% highlight bash %}
-     sudo apt-get install autoconf-archive python-is-python3 pkg-config
-     autoreconf --force --install
+sudo apt-get install autoconf-archive python-is-python3 pkg-config
+autoreconf --force --install
 {% endhighlight %}
-     
+
 You may need to explicitly include the python dependencies
 {% highlight bash %}
 export PYTHONPATH=/usr/lib/python3
 {% endhighlight %}
 
--- Navigate to the root directory of your ICFERST folder. You can install the application for all users by running: 
+-- Navigate to the root directory of your IC-FERST folder. You can install the application for all users by running:
 {% highlight bash %}
 cd IC-FERST-FOLDER/
 sudo ./configure --enable-2d-adaptivity && sudo make install
@@ -87,12 +87,10 @@ make mp && make install
 <h2> Using the diamond GUI to configure test cases </h2>
 The input files are "EXAMPLE.mpml". This files can be either manipulated using diamond a GUI, or a text file. To open the diamond GUI for ICFERST this is an example, found in the examples folder in IC-FERST-FOLDER/legacy_reservoir_prototype/tests/3D_BL
 {% highlight bash %}
-diamond -s IC-FERST-FOLDER/legacy_reservoir_prototype/schemas/multiphase.rng 3D_test.mpml
+diamond -s IC-FERST-FOLDER/ICFERST/schemas/multiphase.rng 3D_test.mpml
 {% endhighlight %}
 
 
 <h2> Installing on other Linux systems </h2>
 
 Although less well supported, the code has been found to run successfully on Red Hat and OpenSUSE systemd. A list of hints and tips for these and other systems may be found <a href="https://github.com/FluidityProject/fluidity/wiki/FAQs">here</a>.
-
-

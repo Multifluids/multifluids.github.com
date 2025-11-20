@@ -26,6 +26,5 @@ main:
     url: /examples/
   - title: "People and publications"
     url: /people/
-  - title: "About"
+  - title: "About & Install"
     url: /license/
-
