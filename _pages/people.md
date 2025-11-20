@@ -8,9 +8,11 @@ excerpt: ""
 
  -- Head of the project: <a href="https://profiles.imperial.ac.uk/m.d.jackson">Professor Matthew D. Jackson</a>.
 
- -- Lead developer of IC-FERST: <a href="https://profiles.imperial.ac.uk/m.bahlali">Dr. Meissam L. Bahlali</a> 
- 
+ -- Lead developer of IC-FERST: <a href="https://profiles.imperial.ac.uk/m.bahlali">Dr. Meissam L. Bahlali</a>
+
  -- Lead geologist and surface-based developer: <a href="https://profiles.imperial.ac.uk/c.jacquemyn">Dr. Carl Jacquemyn</a>
+
+ -- Senior software engineer: Ben Fulton
 
  -- Current and past people on the team: Dr. H. Hu, R. Liu, Dr. G. Regnier, Dr. J. Al-Kubaisy, Dr. V. Santos, Dr. A. Nadimy, Dr. A. Obeysekara, M. Kerhouant, J. Aniket, L. Via-estrem, Dr. J.P. Latham, Dr. J. Xiang, and Dr. Pablo Salinas.
 
@@ -59,7 +61,7 @@ Cite <b>Jackson et al. 2015</b> for the overview, <b>Salinas et al. 2017</b> for
    <p><a href="https://www.sciencedirect.com/science/article/pii/S0021999117307313?via%3Dihub">
            The shape and motion of gas bubbles in a liquid flowing through a thin annulus
       </a><br>
-    Q. Lei, Z. Xie, D. Pavlidis, P. Salinas, J. Veltin, O. K. Matar, C. C. Pain, A. H. Muggeridge, A. J. Gyllensten and M. D. Jackson 
+    Q. Lei, Z. Xie, D. Pavlidis, P. Salinas, J. Veltin, O. K. Matar, C. C. Pain, A. H. Muggeridge, A. J. Gyllensten and M. D. Jackson
       <em> Journal of Fluid Mechanics </em>
       (2018) doi: 10.1017/jfm.2018.696
    </p>
