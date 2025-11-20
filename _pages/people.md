@@ -14,7 +14,7 @@ excerpt: ""
 
  -- Senior software engineer: <a href="https://profiles.imperial.ac.uk/b.fulton">Ben Fulton</a>
 
- -- Current and past people on the team: Dr. H. Hu, R. Liu, Dr. G. Regnier, Dr. J. Al-Kubaisy, Dr. V. Santos, Dr. A. Nadimy, Dr. A. Obeysekara, M. Kerhouant, J. Aniket, L. Via-estrem, Dr. J.P. Latham, Dr. J. Xiang, and Dr. Pablo Salinas.
+ -- Current and past people on the team: Dr. H. Hu, R. Liu, Dr. G. Regnier, Dr. J. Al-Kubaisy, Dr. V. Santos, Dr. A. Nadimy, Dr. A. Obeysekara, Dr. M. Kerhouant, Dr. J. Aniket, Dr. L. Via Estrem, Dr. J.P. Latham, Dr. J. Xiang, and Dr. Pablo Salinas.
 
 ## How to cite IC-FERST
 
