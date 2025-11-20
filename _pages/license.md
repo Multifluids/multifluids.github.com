@@ -49,6 +49,7 @@ sudo apt-get update
 sudo apt-get install fluidity-dev
 {% endhighlight %}
 
+
 -- Ubuntu 18.04, modify the .bashrc file in home to include
 {% highlight bash %}
 export PETSC_DIR=/usr/lib/petscdir/3.8.3
@@ -59,15 +60,28 @@ export PETSC_DIR=/usr/lib/petscdir/3.8.3
 export FCFLAGS="-I/usr/include"
 {% endhighlight %}
 
+-- Ubuntu 24.04, set up the configuration file correctly by running
+{% highlight bash %}
+     sudo apt-get install autoconf-archive python-is-python3 pkg-config
+     autoreconf --force --install
+{% endhighlight %}
+     
 You may need to explicitly include the python dependencies
 {% highlight bash %}
 export PYTHONPATH=/usr/lib/python3
 {% endhighlight %}
 
--- Navigate to the root directory of your ICFERST folder
+-- Navigate to the root directory of your ICFERST folder. You can install the application for all users by running: 
 {% highlight bash %}
 cd IC-FERST-FOLDER/
 sudo ./configure --enable-2d-adaptivity && sudo make install
+{% endhighlight %}
+
+-- Or you can install it just for your user by running:
+{% highlight bash %}
+cd IC-FERST-FOLDER/
+./configure --enable-2d-adaptivity --prefix=$HOME/ICFERST
+make mp && make install
 {% endhighlight %}
 
 <h2> Using the diamond GUI to configure test cases </h2>
