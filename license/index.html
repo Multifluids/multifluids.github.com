@@ -296,7 +296,9 @@ SW7 2BP<br />
 <p>This is the best supported operating system. Intructions to install the necessary packages using the system package managers are given <a href="https://github.com/FluidityProject/fluidity/wiki/FAQ%3A-How-do-I-install-Fluidity-on-Ubuntu-LTS%3F">here</a>. Once the fluidity-dev package has been installed, your system should be able to compile the IC-FERST/ Multifluids Fluidity package, which may be downloaded at the foot of this page.
 The list of commands to get IC-FERST working is as follows:</p>
 
-<p>Download it from github with the following the link from the main page.</p>
+<p>Download it from GitHub <a href="https://github.com/ImperialCollegeLondon/multifluids_icferst/archive/refs/heads/master.zip">here</a>, or using the following command:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">git clone https://github.com/ImperialCollegeLondon/multifluids_icferst.git</code></pre></figure>
 
 <p>– Install dependencies</p>
 
@@ -312,7 +314,7 @@ The list of commands to get IC-FERST working is as follows:</p>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">export </span><span class="nv">FCFLAGS</span><span class="o">=</span><span class="s2">"-I/usr/include"</span></code></pre></figure>
 
-<p>– Ubuntu 24.04, set up the configuration file correctly by running</p>
+<p>– Ubuntu 24.04, navigate to the root directory of your IC-FERST folder and set up the configuration file correctly by running</p>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash"><span class="nb">sudo </span>apt-get <span class="nb">install </span>autoconf-archive python-is-python3 pkg-config
 autoreconf <span class="nt">--force</span> <span class="nt">--install</span></code></pre></figure>
