@@ -66,6 +66,7 @@ export FCFLAGS="-I/usr/include"
 
 -- Ubuntu 24.04, navigate to the root directory of your IC-FERST folder and set up the configuration file correctly by running
 {% highlight bash %}
+cd IC-FERST-FOLDER/
 sudo apt-get install autoconf-archive python-is-python3 pkg-config
 autoreconf --force --install
 {% endhighlight %}
