@@ -92,7 +92,7 @@ make mp && make install
 <h2> Using the diamond GUI to configure test cases </h2>
 The input files are "EXAMPLE.mpml". This files can be either manipulated using diamond a GUI, or a text file. To open the diamond GUI for ICFERST this is an example, found in the examples folder in IC-FERST-FOLDER/ICFERST/tests/3D_BL_P0DGP1CV
 {% highlight bash %}
-diamond -s IC-FERST-FOLDER/ICFERST/schemas/multiphase.rng 3D_test.mpml
+IC-FERST-FOLDER/libspud/diamond/bin/diamond -s IC-FERST-FOLDER/ICFERST/schemas/multiphase.rng 3D_test.mpml
 {% endhighlight %}
 
 <h2> Running IC-FERST </h2>
