@@ -39,7 +39,7 @@ The basic list of supporting software, and method of installation, is the same a
 This is the best supported operating system. Intructions to install the necessary packages using the system package managers are given <a href="https://github.com/FluidityProject/fluidity/wiki/FAQ%3A-How-do-I-install-Fluidity-on-Ubuntu-LTS%3F">here</a>. Once the fluidity-dev package has been installed, your system should be able to compile the IC-FERST/ Multifluids Fluidity package, which may be downloaded at the foot of this page.
 The list of commands to get IC-FERST working is as follows:
 
-Download it from GitHub <a href="https://github.com/ImperialCollegeLondon/multifluids_icferst/archive/refs/heads/master.zip">here</a>, or using the following command:
+Download it from GitHub <a href="https://github.com/ImperialCollegeLondon/multifluids_icferst/archive/refs/heads/main.zip">here</a>, or using the following command:
 
 {% highlight bash %}
 git clone https://github.com/ImperialCollegeLondon/multifluids_icferst.git
