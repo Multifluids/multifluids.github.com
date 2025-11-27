@@ -336,9 +336,14 @@ autoreconf <span class="nt">--force</span> <span class="nt">--install</span></co
 make mp <span class="o">&amp;&amp;</span> make <span class="nb">install</span></code></pre></figure>
 
 <h2> Using the diamond GUI to configure test cases </h2>
-<p>The input files are “EXAMPLE.mpml”. This files can be either manipulated using diamond a GUI, or a text file. To open the diamond GUI for ICFERST this is an example, found in the examples folder in IC-FERST-FOLDER/legacy_reservoir_prototype/tests/3D_BL</p>
+<p>The input files are “EXAMPLE.mpml”. This files can be either manipulated using diamond a GUI, or a text file. To open the diamond GUI for ICFERST this is an example, found in the examples folder in IC-FERST-FOLDER/ICFERST/tests/3D_BL_P0DGP1CV</p>
 
 <figure class="highlight"><pre><code class="language-bash" data-lang="bash">diamond <span class="nt">-s</span> IC-FERST-FOLDER/ICFERST/schemas/multiphase.rng 3D_test.mpml</code></pre></figure>
+
+<h2> Running IC-FERST </h2>
+<p>Once you are happy with the contents of your input .mpml file, you can run IC-FERST using:</p>
+
+<figure class="highlight"><pre><code class="language-bash" data-lang="bash">mpirun <span class="nt">-n</span> 1 IC-FERST-FOLDER/bin/icferst 3D_test.mpml</code></pre></figure>
 
 <h2> Installing on other Linux systems </h2>
 
